@@ -13,10 +13,14 @@ any time; new requests go to the top.
 ## Queue
 
 ### Supplements
-- [ ] open — Creatine monohydrate: muscle, strength, cognition, kidney safety, loading, timing, non-responders
-- [ ] open — Caffeine and pre-workouts: performance, dose by body weight, sleep cost, habituation
-- [ ] open — Protein powders: whey vs casein vs plant, leucine threshold, digestibility, contamination testing
-- [ ] open — Beta-alanine, citrulline, nitrates (beetroot), sodium bicarbonate for lifting
+- [x] done (2026-11-15) — Creatine monohydrate: muscle, strength, cognition, kidney safety, loading, timing, non-responders
+  - **Verdict (strong):** the best legal supplement, though the gain is modest: about +1.4 kg fat-free mass (part of it water) and a few kg on your lifts. Take 5 g a day at any time; loading is optional. It doesn't harm healthy kidneys but makes creatinine/eGFR blood tests read worse. The hair-loss scare is unfounded. → [`library/supplements/creatine.md`](../library/supplements/creatine.md)
+- [x] done (2026-11-15) — Caffeine and pre-workouts: performance, dose by body weight, sleep cost, habituation
+  - **Verdict (strong for the acute effect; limited for the long term):** about +1–2% on 1RM and about 1 extra rep per set; 2–3 mg/kg (175–260 mg) is enough. It costs sleep if taken within about 8–10 h of bed. It doesn't build extra muscle. Branded pre-workouts add little but risk. → [`library/supplements/caffeine-preworkout.md`](../library/supplements/caffeine-preworkout.md)
+- [x] done (2026-11-15) — Protein powders: whey vs casein vs plant, leucine threshold, digestibility, contamination testing
+  - **Verdict (moderate):** total daily protein (≥1.6 g/kg, about 140 g; up to about 190 g) matters far more than the source. Whey ≈ soy at matched intake. Whey is the cheapest, cleanest default, and powder is just convenience. Single-source plant powders carry the most lead/cadmium. → [`library/supplements/protein-powders.md`](../library/supplements/protein-powders.md)
+- [x] done (2026-11-15) — Beta-alanine, citrulline, nitrates (beetroot), sodium bicarbonate for lifting
+  - **Verdict (moderate acute; no long-term evidence):** small same-day boosts to reps in acidic, short-rest efforts (SMD about 0.2–0.4), and no 1RM or muscle gain shown in trained lifters. Skip citrulline. Beta-alanine and beetroot are optional; bicarbonate is not for routine training. → [`library/supplements/buffers-nitrates.md`](../library/supplements/buffers-nitrates.md)
 - [ ] open — Vitamin D, omega-3, magnesium, zinc: do they help lifters who aren't deficient?
 - [ ] open — Ashwagandha, tongkat ali, fenugreek, "test boosters": testosterone and strength evidence, safety
 - [ ] open — HMB, glutamine, BCAAs/EAAs: do they add anything with adequate protein?
@@ -52,3 +56,14 @@ any time; new requests go to the top.
 
 ## Discovered
 <!-- New topics found by the daily runs are added here, tagged with the run that found them. -->
+
+### Discovered 2026-11-15
+- [ ] open — Creatine during a calorie deficit: does it preserve lean mass and strength in trained lifters who are cutting? *(from creatine)*
+- [ ] open — Reading kidney blood tests as a muscular, high-protein, creatine-using lifter: cystatin C vs creatinine-based eGFR *(from creatine)*
+- [ ] open — Creatine responders: MR-spectroscopy data, habitual meat intake, SLC6A8 genetics; how common are true non-responders? *(from creatine)*
+- [ ] open — Caffeine-related sleep loss (30–45 min a night): does it measurably cut hypertrophy or strength gains over 8+ weeks? *(from caffeine)*
+- [ ] open — Caffeine withdrawal: does 7–14 days off restore the full lifting effect in heavy habitual users? *(from caffeine)*
+- [ ] open — Collagen protein: does it count toward hypertrophy protein targets? *(from protein powders)*
+- [ ] open — Protein powder vs whole-food protein at matched intake during a cut: body composition, appetite, adherence *(from protein powders)*
+- [ ] open — Beta-alanine or bicarbonate for short-rest hypertrophy programmes: more session volume, and more muscle over 8–12 weeks? *(from buffers)*
+
