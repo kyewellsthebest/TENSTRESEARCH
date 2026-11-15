@@ -2,6 +2,15 @@
 
 Follow this every time you are asked to "do today's research run". Work autonomously and don't ask questions.
 
+## Continuous mode (from 2026-11-15)
+The worker is woken **every hour** and runs until Kye says stop.
+- **Stop switch.** If the file `knowledge-base/STOP` exists, do nothing: reply "Stopped (STOP file present)" and end
+  the turn. Kye can create that file on GitHub to stop the research without talking to Claude.
+- **Overlap.** If a run is somehow still in progress (uncommitted notes from this hour), finish and commit that
+  first; never run two rounds at once.
+- **Usage limit.** If a run fails because the usage limit is reached, write nothing more. The next hourly wake
+  continues once the limit resets.
+
 ## 0. Sync and re-read
 - `git pull origin main`.
 - Read `CLAUDE.md`, `knowledge-base/README.md`, `knowledge-base/TOPICS.md`, the last 10 rows of
@@ -9,9 +18,9 @@ Follow this every time you are asked to "do today's research run". Work autonomo
 - Never rely on memory from earlier runs; the repo is the source of truth.
 
 ## 1. Pick topics
-- Take the first two topics marked "open" in `TOPICS.md`. Topics Kye added at the top come first.
+- Take the first **four** topics marked "open" in `TOPICS.md`. Topics Kye added at the top come first.
 
-## 2. Research (one background research agent per topic)
+## 2. Research (four background research agents in parallel, one per topic)
 Brief each agent to:
 - find the meta-analyses, RCTs and key trials, preferring trained lifters and longitudinal outcomes;
 - use full text via PubMed E-utilities (eutils.ncbi.nlm.nih.gov), PMC (pmc.ncbi.nlm.nih.gov), Europe PMC REST
@@ -32,13 +41,13 @@ Each agent writes `knowledge-base/notes/<YYYY-MM-DD>-<topic-slug>.md`, ending wi
 Budget: about 30 searches per agent.
 
 ## 3. Audit
-- When both agents finish, launch one independent auditor agent.
-- It verifies the load-bearing citations and numbers in both notes, plus a seeded random sample of 8 more rows.
+- When all four agents finish, launch one independent auditor agent.
+- It verifies the load-bearing citations and numbers in all four notes, plus a seeded random sample of 8 more rows.
 - It appends an "Audit" section with corrections to each note.
 
 ## 4. Keep the queue growing
 - Add the best "New avenues" to `TOPICS.md` under **Discovered**, tagged with the run date, skipping duplicates.
-- If fewer than 10 topics are open, run **topic discovery** until at least 15 are open:
+- If fewer than 12 topics are open, run **topic discovery** until at least 20 are open:
   - recent (last 12 months) meta-analyses and RCTs on resistance training, hypertrophy, strength, sports
     nutrition, body composition, supplements and recovery, found via PubMed or Europe PMC date-filtered searches;
   - the latest issues of Sports Medicine, MSSE, JISSN, JSCR, EJAP and Nutrients;
