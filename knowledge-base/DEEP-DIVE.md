@@ -2,7 +2,7 @@
 
 Kye wants depth, not quick skims. Each topic is therefore researched **exhaustively over many rounds**, the way a
 systematic review is done, before the worker moves to the next topic. The screening and quality rules are in
-**`APPRAISAL.md`**, and every phase follows it. If `APPRAISAL.md` is not in the repo yet, do phase 1 (protocol and search) only; it needs no appraisal rules.
+**`APPRAISAL.md`**, and every phase follows it.
 
 ## Folder per topic: `knowledge-base/deep/<topic-slug>/`
 
@@ -53,6 +53,15 @@ systematic review is done, before the worker moves to the next topic. The screen
 - When a topic reaches "deep-dive done", start the next one from the deep-dive queue below.
 - Update the `library/` page with an interim "Draft — deep dive in progress (phase N)" verdict whenever the evidence
   changes.
+
+## Access notes (tested 2026-11-15)
+- **PMC full text:** `pmc.ncbi.nlm.nih.gov` may not resolve. Use Europe PMC instead:
+  `https://www.ebi.ac.uk/europepmc/webservices/rest/{PMCID}/fullTextXML`.
+- **Retraction checks:** use Crossref's `updated-by` / `update-to` fields, which carry Retraction Watch data. The
+  retractionwatch.com site itself is blocked.
+- **Citation chasing:** OpenAlex has a free daily limit. When it runs out, fall back to Semantic Scholar or the
+  Europe PMC citations and references endpoints.
+- **Blocked:** cochrane.org. Use the published RoB 2 and GRADE papers instead.
 
 ## Honest limits, to be stated in every synthesis
 
