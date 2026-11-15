@@ -1,7 +1,7 @@
 # Creatine deep dive — progress (resume point)
 
 **Active topic:** creatine monohydrate (deep-dive queue #1). **Tier B** (full primary review), per `protocol.md`.
-**Current phase:** 2 in progress (title/abstract screening): 400 of 4,587 screened (batches 001–002). **Next: batches 003–004.**
+**Current phase:** 2 in progress (title/abstract screening): 800 of 4,587 screened (batches 001–004). **Next: batches 005–006.**
 
 ## Funnel so far (PRISMA counts)
 
@@ -20,11 +20,11 @@
 | Auto-filter E09 retracted (PubMed "Retracted Publication") — all off-topic | 7 |
 | Auto-filter E16 patent records | 5 |
 | **Records for title/abstract screening** | **4,587** |
-| Screened so far (batches 001–002, verified) | 400 |
-| → include (trials + SR/MA mapping records) | 46 |
-| → maybe (to full text) | 10 |
-| → exclude (E06 112, E03 84, E02 72, E07 46, E01 11, E14 9, E04 6, E05 4) | 344 |
-| **Still to screen** | **4,187** |
+| Screened so far (batches 001–004, verified) | 800 |
+| → include (trials + SR/MA mapping records) | 76 |
+| → maybe (to full text) | 11 |
+| → exclude (E03 231, E06 207, E02 137, E07 68, E01 35, E14 15, E04 13, E05 7) | 713 |
+| **Still to screen** | **3,787** |
 
 New-after-dedup per search is in `searches.csv`.
 
@@ -32,6 +32,7 @@ New-after-dedup per search is in `searches.csv`.
 
 | date | phase | what was done | last record screened | next |
 |---|---|---|---|---|
+| 2026-11-15 08:28 | 2 | Batches 003 (SP1-0469…SP1-0713) and 004 (SP1-0715…SP1-0938) screened by agents A and B, then cross-verified (seeds 20261115003/20261115004; 61 records re-checked). Batch 003: one flagged exclude (SP1-0660, age unreported) changed to maybe, which triggered the **rescue rule**. All 158 remaining excludes were re-screened and none changed. Batch 004: SP1-0917 (a multi-drug PED umbrella review) changed from include to E03, for consistency with SP1-0511/SP1-0655. Both maybes in batch 003 changed to include (SP1-0533 Galvan 2016, checked in full text; SP1-0637 renal review). This round: 30 include, 1 maybe, 369 exclude. | SP1-0938 | Batches 005–006 |
 | 2026-11-15 06:28 | 2 | Batches 001 (SP1-0004…SP1-0229) and 002 (SP1-0230…SP1-0468) screened by agents A and B, each 200 records with PubMed abstracts. Cross-verification: A checked B's batch and B checked A's, re-screening all maybes, a seeded 10% of excludes (seeds 20261115001/20261115002) and the screener-flagged borderline excludes. 60 records re-checked; 0 excludes overturned (no rescue needed); 4 maybes resolved (1 include, 3 exclude). Merged into `records.csv`. | SP1-0468 | Batches 003–004 |
 | 2026-11-15 04:28 | 1 | Protocol written (APPRAISAL.md §2 defaults: adults 18–50, hypertrophy ≥6 wk, strength ≥4 wk, thresholds, E01–E16). PubMed P1–P8, Europe PMC E1–E6, Semantic Scholar S1 run and logged. Merged into `records.csv` (5,553) with auto-filters. | none (screening not started) | Phase 2 batch 1 |
 
@@ -39,13 +40,20 @@ New-after-dedup per search is in `searches.csv`.
 - Acute, single-session or loading-only studies (shorter than the protocol minimum) with exercise: **E07**. Creatine with no structured RT programme at all: **E03**.
 - Co-ingredient trials are **included** when the comparator gets the same co-ingredients (e.g. Cr+whey vs whey). A multi-ingredient product vs plain placebo is **E14**. Creatine in every arm (form or timing comparisons) is **E04**.
 - Creatine-specific SR/MAs are included as mapping records even in clinical populations. Multi-treatment reviews of a disease are E02.
-- Samples aged mainly >50 (e.g. 48–72, 55–70) are E02.
+- Samples aged mainly >50 (e.g. 48–72, 55–70) are E02. If the age isn't reported in the abstract, mark maybe (decided at full text).
+- Multi-supplement or multi-drug SR/MAs that aren't creatine-specific are E03, but list them as citation-chasing sources (SP1-0511, SP1-0655, SP1-0917).
+- Plyometric-only training with no RT outcome is E05 (SP1-0521); E03 is also defensible.
 
 ## Links to resolve at full text / citation chasing
 - SP1-0050 is probably a companion of SP1-0036 (Volek 1999/2000). Check for E08.
 - SP1-0063 and SP1-0179 (excluded E05, signalling only) are Hespel-cohort companions of SP1-0082. Re-code as E08 if SP1-0082 is included.
 - SP1-0118 and SP1-0131 (E05) are likely secondary reports of cohorts with muscle outcomes elsewhere. Chase them.
 - SP1-0143 (maybe) and SP1-0235 (maybe) are the same rugby HMB+Cr cohort. Screen them together; one may be E08.
+- SP1-0553 (E05; Hayward whey+omega-3+Cr, 4 wk) has a likely companion report with body composition. Chase it.
+- SP1-0718 (E04; HMB+Cr vs Cr, rugby) may share a sample with SP1-0143/SP1-0235.
+- The SP1-0757/SP1-0793 (Candow, older) and SP1-0575 (Bell, older) cohorts are excluded E02; their companion reports are excluded too.
+- Wang creatine/PAP papers SP1-0532, SP1-0591 and SP1-0638 (included): check for sample overlap.
+- SP1-0533 (Galvan 2016, creatine nitrate; included): check whether 1RM is reported or only bar power.
 - SP1-0076 (include) has an electrical-stimulation co-stimulus and unsupervised voluntary training. Flag F-SUPERV.
 
 ## Instructions for the next round (phase 2)
