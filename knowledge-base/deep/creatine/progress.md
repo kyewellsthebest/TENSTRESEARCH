@@ -1,7 +1,7 @@
 # Creatine deep dive — progress (resume point)
 
 **Active topic:** creatine monohydrate (deep-dive queue #1). **Tier B** (full primary review), per `protocol.md`.
-**Current phase:** 2 in progress (title/abstract screening): 2,400 of 4,587 screened (batches 001–012). **Next: batches 013–014.**
+**Current phase:** 2 in progress (title/abstract screening): 2,800 of 4,587 screened (batches 001–014). **Next: batches 015–016.**
 
 ## Funnel so far (PRISMA counts)
 
@@ -20,11 +20,11 @@
 | Auto-filter E09 retracted (PubMed "Retracted Publication") — all off-topic | 7 |
 | Auto-filter E16 patent records | 5 |
 | **Records for title/abstract screening** | **4,587** |
-| Screened so far (batches 001–012, verified) | 2,400 |
+| Screened so far (batches 001–014, verified) | 2,800 |
 | → include (trials + SR/MA mapping records) | 105 |
 | → maybe (to full text) | 14 |
-| → exclude (E02 821, E03 802, E06 422, E01 114, E07 79, E14 18, E04 15, E05 9, E12 1) | 2,281 |
-| **Still to screen** | **2,187** (565 of them found only by the P2 sensitivity query, without the supplement term) |
+| → exclude (E02 990, E03 954, E06 459, E01 152, E07 80, E14 19, E04 15, E05 9, E13 2, E12 1) | 2,681 |
+| **Still to screen** | **1,787** (260 of them found only by the P2 sensitivity query, without the supplement term) |
 
 New-after-dedup per search is in `searches.csv`.
 
@@ -32,6 +32,7 @@ New-after-dedup per search is in `searches.csv`.
 
 | date | phase | what was done | last record screened | next |
 |---|---|---|---|---|
+| 2026-11-15 18:28 | 2 | Batches 013 (SP2-2064…SP2-2301) and 014 (SP2-2304…SP2-2539), all P2-only noise. Screened and cross-verified (seeds 20261115013/20261115014; 47 records re-checked, 47/47 agree, no rescue). This round: 0 include, 0 maybe, 400 exclude. | SP2-2539 | Batches 015–016 |
 | 2026-11-15 16:28 | 2 | Batches 011 (SP2-1542…SP2-1811) and 012 (SP2-1812…SP2-2062), all P2-only noise. Screened and cross-verified (seeds 20261115011/20261115012; 48 records re-checked, 48/48 agree, no rescue). This round: 0 include, 0 maybe, 400 exclude. | SP2-2062 | Batches 013–014 |
 | 2026-11-15 14:28 | 2 | Batches 009 (SP2-0997…SP2-1279) and 010 (SP2-1280…SP2-1541), all P2-only noise. Screened and cross-verified (seeds 20261115009/20261115010; 47 records re-checked, 47/47 agree, no rescue). This round: 0 include, 0 maybe, 400 exclude. | SP2-1541 | Batches 011–012 |
 | 2026-11-15 12:28 | 2 | Batches 007 (SP2-0417…SP2-0720) and 008 (SP2-0722…SP2-0996), almost all P2-only noise. Screened and cross-verified (seeds 20261115007/20261115008; 50 records re-checked, 50/50 agree, no rescue). This round: 1 include (SP2-0978, Kley 2008 muscle-disorder MA, a companion of Cochrane CD004760), 0 maybe, 399 exclude. SR/MA rule clarified (population doesn't count). | SP2-0996 | Batches 009–010 |
@@ -47,7 +48,7 @@ New-after-dedup per search is in `searches.csv`.
 - Samples aged mainly >50 (e.g. 48–72, 55–70) are E02. If the age isn't reported in the abstract, mark maybe (decided at full text).
 - **SR/MA rule (adopted 2026-11-15 10:29):** keep a creatine-specific SR/MA as a mapping record whenever its eligibility criteria could admit a trial meeting our PICOS (human creatine vs placebo/no creatine, RT co-intervention not excluded), whatever its outcomes or population. If its own criteria rule out any such trial, code it E05 (e.g. SP1-1040, cognition in people 55+ that excludes RT). Creatine plus a co-ingredient SR/MA (beta-alanine, HMB) counts as creatine-specific. **Clarified 12:28:** for this rule only the intervention, comparator and design parts of the PICOS count. A creatine-specific SR/MA restricted to a clinical or older population is still kept as a mapping record, as in batches 001–008 (e.g. SP1-0223/0340/0410, SP2-0978), because mapping records only feed citation chasing.
 - A partial age overlap is decided at screening if the abstract reports both mean and range (e.g. SP1-1114, mean 54.5: E02). It goes to maybe only if age isn't reported.
-- Multi-supplement or multi-drug SR/MAs that aren't creatine-specific are E03, but list them as citation-chasing sources (SP1-0511, SP1-0655, SP1-0917, SP1-1083, SP1-1066, SP1-1024, SP1-1034, SP1-1097, SP1-1130, SP1-0946, SP2-1280 Candow 2012, SP2-1059, SP2-1266, SP2-1677, SP2-1825).
+- Multi-supplement or multi-drug SR/MAs that aren't creatine-specific are E03, but list them as citation-chasing sources (SP1-0511, SP1-0655, SP1-0917, SP1-1083, SP1-1066, SP1-1024, SP1-1034, SP1-1097, SP1-1130, SP1-0946, SP2-1280 Candow 2012, SP2-1059, SP2-1266, SP2-1677, SP2-1825, **SP2-2273** (SR/MA of nutrition + RT in older adults: creatine subgroup of 4 trials, LBM MD 2.61 kg, 95% CI 0.51 to 4.72; chase all 4), SP2-2075 (Cochrane SMA multi-drug review)).
 - Plyometric-only training with no RT outcome is E05 (SP1-0521); E03 is also defensible.
 
 ## Links to resolve at full text / citation chasing
