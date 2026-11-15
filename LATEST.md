@@ -5,6 +5,12 @@ pages and the PDF digest.
 
 ---
 
+### 2026-11-15 — deep dive started: creatine (phase 1 of 6)
+Research has switched to **deep-dive mode**: one topic at a time, reviewed exhaustively. Creatine is first. The protocol is written,
+and PubMed, Europe PMC and Semantic Scholar were searched: 5,553 unique records, 4,587 left to screen after automatic filters.
+Title/abstract screening starts next round. The verdict is unchanged for now. → [progress](knowledge-base/deep/creatine/progress.md) ·
+[page](library/supplements/creatine.md)
+
 ### 2026-11-15 — round 1: supplements (audited)
 - **Creatine** — the best legal supplement: about +1.4 kg fat-free mass and a few kg on your lifts. Take 5 g a day at any time; it's kidney-safe but makes blood tests look worse. *Strong.* → [page](library/supplements/creatine.md)
 - **Caffeine & pre-workouts** — about +1–2% 1RM and about 1 extra rep at 2–3 mg/kg (175–260 mg). It costs sleep if taken within 8–10 h of bed and builds no extra muscle. Skip branded pre-workouts. *Strong (acute).* → [page](library/supplements/caffeine-preworkout.md)
