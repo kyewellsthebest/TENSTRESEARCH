@@ -5,6 +5,9 @@ pages and the PDF digest.
 
 ---
 
+### 2026-11-15 — creatine deep dive: screening under way (phase 2)
+400 of 4,587 records have been screened by title and abstract: 46 included, 10 maybe and 344 excluded. A second agent re-checked 60 of those decisions and overturned no exclusions. The verdict is unchanged until full-text appraisal. → [progress](knowledge-base/deep/creatine/progress.md)
+
 ### 2026-11-15 — deep dive started: creatine (phase 1 of 6)
 Research has switched to **deep-dive mode**: one topic at a time, reviewed exhaustively. Creatine is first. The protocol is written,
 and PubMed, Europe PMC and Semantic Scholar were searched: 5,553 unique records, 4,587 left to screen after automatic filters.
