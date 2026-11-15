@@ -246,17 +246,18 @@ for any of them.
 
 ## 5. Combined buffers and a striking hypertrophy claim
 
-- **Pouresmaeili2026 (ABSTRACT)** gave n = 20 "active" men (10 per group) beta-alanine (3–6 g/day) plus bicarbonate
+- **Pouresmaeili2026 (ABSTRACT; full text checked in audit)** gave n = 20 "active" men (10 per group) beta-alanine (3–6 g/day) plus bicarbonate
   (4–6 g/day) for 8 weeks of 3 × max-rep sets at 70%.
-  - It reported total session volume +29% vs +13%, and MRI quadriceps cross-sectional area **+21–24% vs +5%**.
+  - It reported total session volume +29% vs +13%, and MRI quadriceps cross-sectional area **+21–24% vs +5–9%** (placebo +5% right leg, +9% left leg) [corrected in audit].
   - 1RM gains did not differ.
 - **Fact-check verdict: do not trust the hypertrophy number.**
-  - A 4-fold difference in muscle growth from buffers is far outside anything else in this literature; for
+  - A roughly 2.5–5-fold difference [corrected in audit; was "4-fold"] in muscle growth from buffers is far outside anything else in this literature; for
     comparison, beta-alanine's fat-free-mass effect in Ashtary-Larky2022 is 0.05 kg.
   - The abstract mixes mm³ and mm² for the same measure.
-  - The groups are tiny and the participants untrained. The bicarbonate dose is low (about 0.05–0.07 g/kg), so it
+  - The groups are tiny and the participants were recreationally active men, not described as resistance-trained [corrected in audit]. The bicarbonate dose is low (about 0.05–0.07 g/kg), so it
     is unlikely to buffer much.
-  - Only the abstract was accessible: blinding details were not visible.
+  - The full text is in PMC (PMC13403920) [corrected in audit]. It was single-blind: researchers were not blinded, and the
+    authors note that beta-alanine tingling may have let the supplement group guess their condition.
   - **Strength: very limited.** Needs replication before it means anything.
 - Saunders2017 found beta-alanine plus bicarbonate gave the largest effect vs placebo (ES 0.43, 0.22–0.64) in
   endurance-type capacity tests, not lifting.
@@ -342,3 +343,32 @@ for any of them.
    high-rep leg sessions, and what is the blood-pressure or sodium cost of using it regularly?
 4. Is there evidence that **nitrate's acute power effect** (Coggan2021: +5% fresh-state power) improves velocity-based
    or explosive resistance training outcomes over weeks in trained lifters?
+
+## Audit (2026-11-15)
+
+Independent audit. Every DOI was resolved on Crossref, and the metadata matched. Numbers were checked against Europe
+PMC abstracts and NCBI PMC full text. No retractions or corrections were found. Full detail is in
+`2026-11-15-audit.csv`.
+
+| key | type | verdict | what was checked |
+|---|---|---|---|
+| Saunders2017 | load-bearing | CONFIRMED | Abstract. 40 studies, n = 1,461; **ES 0.18 (0.08–0.28)**; duration p = 0.004; capacity 0.50 vs performance 0.11; beta-alanine plus bicarbonate 0.43 (0.22–0.64). |
+| Tan2023 | load-bearing | CONFIRMED | FULL. 6 studies, 92 participants; **reps to failure SMD 0.43 (0.16–0.69/0.70), 5 studies, I² = 46%**; mean power 0.40 (0.13–0.68); Beet It product. |
+| Grgic2020 | load-bearing | CONFIRMED | Abstract. Endurance 0.37 (0.15–0.59); small muscle groups 0.31; large 0.40; strength rested 0.02; strength fatigued −0.16. Overall strength −0.03 (−0.18 to 0.12), which is not in the note but consistent with it. |
+| Pouresmaeili2026 | load-bearing | CORRECTED | **It exists** (Int J Exerc Sci 2026). The full text **is** in PMC (PMC13403920). Three things were fixed inline. The placebo CSA gain was **+5% (right) and +9% (left)**, not +5%. Participants were recreationally active, not called "untrained". The design was single-blind: researchers were not blinded, and tingling may have broken participant blinding. The fact-check verdict (very limited, don't trust it) stands and is strengthened. |
+| Ashtary-Larky2022 | load-bearing | CONFIRMED | Abstract. 20 RCTs, n = 492; FFM +0.05 kg (−0.71 to 0.82), I² = 0%. |
+| Georgiou2024 | load-bearing | CONFIRMED | Abstract. 18 studies, n = 331; 0.39 (0.09–0.69); 4–10 min 0.55; 5.6–6.4 g/day 0.35. |
+| Alvares2022 | random-sample | CONFIRMED | Abstract. 34 studies; strength SMD 0.08; endurance 0.31; no CIs in the abstract. |
+
+**AIS groups.** Beta-alanine, sodium bicarbonate and beetroot juice (nitrate) are in **AIS Group A**: CONFIRMED,
+SECONDARY. The proxy blocked the AIS PDFs, so this rests on web search results that list Group A as caffeine,
+beta-alanine, bicarbonate, beetroot juice, creatine and glycerol. Citrulline is **not** in those Group A lists, but
+its exact group (B or C) remains UNVERIFIED.
+
+**Arithmetic check.** 0.3 g/kg × 87 kg = 26.1 g of bicarbonate, and 27.4% of that is sodium, about 7.1 g. Against the
+2,000 mg suggested dietary target, that is about 3.6×. The note's figures are correct.
+
+**Safety.** All four are legal, non-WADA-prohibited supplements, and the doses given are the standard ones. The
+bicarbonate caution about GI upset, blood pressure and kidneys is appropriate. No banned-substance content appears.
+
+**Verdict stands.** The Pouresmaeili corrections make the hypertrophy claim less credible, not more.

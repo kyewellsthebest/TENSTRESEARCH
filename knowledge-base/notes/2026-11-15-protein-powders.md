@@ -214,7 +214,7 @@ DIAAS ranks a protein by its most limiting digestible essential amino acid. A sc
   - Multinational brands performed better.
   - **Strength: limited** for Australia (different market, small sample).
 - **Banned-substance risk in Australia is low for plain protein powder, but not zero.**
-  - Barker2025 (FULL): Sport Integrity Australia / HASTA bought 201 supplements online in 2022. 35% contained
+  - Barker2025 (FULL): Sport Integrity Australia / HASTA bought 200 products online in 2022 (201 samples, as one product was tested as two capsules) [corrected in audit]. 35% contained
     WADA-prohibited substances, mostly in pre-workouts, fat burners and "muscle builders". Protein powders: 1 of 14
     (7%). 57% of the positive products did not list the substance on the label.
   - **Strength: moderate.** This matters only if Kye is ever drug-tested in competition.
@@ -279,3 +279,28 @@ DIAAS ranks a protein by its most limiting digestible essential amino acid. A sc
    composition, appetite or adherence during a cut in trained lifters?
 4. **Collagen and "protein-spiked" collagen blends.** Does collagen count towards hypertrophy protein targets? Recent
    RCTs suggest it may not (to be verified).
+
+## Audit (2026-11-15)
+
+Independent audit. Every DOI was resolved on Crossref, and the metadata matched. Numbers were checked against Europe
+PMC abstracts and NCBI PMC full text. No retractions were found. Morton2018's 2020 correction is confirmed. Full
+detail is in `2026-11-15-audit.csv`.
+
+| key | type | verdict | what was checked |
+|---|---|---|---|
+| Morton2018 | load-bearing | CONFIRMED | FULL. 49 studies, n = 1,863; FFM +0.30 kg (0.09–0.52); 1RM +2.49 kg (0.64–4.33); CSA 310 µm² (51–570). Trained participants: FFM 1.05 (0.61–1.50) and 1RM 4.27 (0.61–7.94); 10 trained studies; meta-regression 0.75 (0.09–1.40). **Break point 1.62 g/kg/day (1.03–2.20), p = 0.079, 42 arms, R² = 0.19.** The authors suggest about 2.2 g/kg/day for those wanting to maximise gains. |
+| ReidMcCann2025 | load-bearing | CONFIRMED | FULL. Overall −0.20 (−0.37 to −0.03); soy vs milk −0.02 (−0.20 to 0.16; 17 RCTs); non-soy plant −0.58 (−1.06 to −0.09; 5 RCTs); plant diets −0.51 (−0.91 to −0.11); with RT −0.45 (−0.85 to −0.05). |
+| HeviaLarrain2021 | load-bearing | CONFIRMED | Abstract. 19 vs 19 untrained men, protein 1.6 g/kg/day, vastus lateralis CSA 2.2 vs 2.8 cm², leg press +97 vs +117 kg, no differences, retrospective registration. Leg lean mass was cut off in the abstract text, so it was not re-seen. |
+| Lim2021 | load-bearing | CONFIRMED | FULL. Absolute lean mass +0.22 kg (−0.02 to 0.46); percent lean mass +0.50% (0.05–0.95); under 50 years +0.41 kg (0.08–0.74); squat −0.94 kg (−4.57 to 2.70). |
+| Barker2025 | load-bearing | CORRECTED | FULL. **200 products** were bought, giving 201 samples (one product was tested as two capsules), not "201 supplements". 35% positive; protein 1 of 14 (7%); 57% unlabelled. This has been fixed inline. |
+| Bandara2020 | random-sample | CONFIRMED | FULL. Hazard index above 1 only for the single product with 13.18 µg Cd per serving at 3 servings/day; maximum modelled blood lead 2.35 µg/dL. |
+| Herreman2020 | random-sample | CONFIRMED | DIAAS classes (≥100, 75–99 and <75) and the Avebe affiliation of all four authors are confirmed. Wheat's class and the whey range of 78–88 were not re-checked. |
+
+**140 g/day check.** 1.6 × 87 = 139 g, so "about 140 g/day" is right, and 2.2 × 87 = 191 g, so "about 190 g" is also
+right. The framing is sensible, with one nuance. Morton's 1.62 g/kg is a **population-average plateau with a wide,
+non-significant CI (1.03–2.20)**, not a proven individual minimum. "Target about 140 g; up to about 190 g if you want to
+be sure" is a slightly more accurate reading than "working minimum". No change is needed to the advice itself.
+
+**Safety.** The note gives no banned-substance dosing or sourcing, and its batch-testing advice is appropriate.
+
+**Verdict stands.**

@@ -248,3 +248,29 @@ through another source). Acute session performance is kept separate from long-te
    load and muscle thickness, with blinding checked?
 4. What do Australian (TGA/FSANZ) and recent Informed Sport/HASTA testing data show about stimulant contamination
    rates in pre-workouts sold in Australia (2022–2026)?
+
+## Audit (2026-11-15)
+
+Independent audit. Every DOI was resolved on Crossref, and the metadata matched. Numbers were checked against Europe
+PMC abstracts and NCBI PMC full text. No retractions were found. Full detail is in `2026-11-15-audit.csv`.
+
+| key | type | verdict | what was checked |
+|---|---|---|---|
+| Grgic2018 | load-bearing | CONFIRMED | FULL. Strength SMD 0.20 (0.03–0.36); upper body 0.21 (0.02–0.39); lower body 0.15 (−0.05 to 0.34); power 0.17 (0.00–0.34). In the 3 studies that checked blinding, 33–60% of participants guessed correctly. |
+| Xiao2025 | load-bearing | CONFIRMED | FULL. Mean velocity 0.42 (0.19–0.65), I² = 85%; mean power 0.21 (0.12–0.30). Habitual users: <3 mg/kg/day 0.87 (0.72–1.02) vs ≥3 mg/kg/day 0.21, **whose CI is printed in the paper itself as 0.11–1.02**. That is a typo in the source, not in this note, so don't use that CI. Dose subgroups: 0.43, 0.31 and 0.78. |
+| Gardiner2023 | load-bearing | CONFIRMED | Abstract. All sleep numbers match. The cut-offs of "8.8 h" (107 mg) and "13.2 h" (217.5 mg pre-workout) are stated verbatim in the abstract. Calling them model-derived is fair. |
+| Lara2019 | load-bearing | CONFIRMED | FULL. n = 11; peak power about +4.0% for the first 15 days, then the effect faded. |
+| Grgic2022 | load-bearing | CONFIRMED | Abstract. 12 studies at 0.9–2 mg/kg; d = 0.17, 0.21 and 0.56, with the CIs as quoted. |
+| Guest2021 | load-bearing | CONFIRMED | FULL. The quoted phrases "may be as low as 2 mg/kg" and "9 mg/kg ... do not seem to be required" are in the text. |
+| Ormsbee2012 | random-sample | CONFIRMED | Lean mass +2.8 vs +1.3 kg; n = 24; VPX products. Extra flag: groups were **allocated by matching** on the MVC-to-lean-mass ratio, and the abstract does not describe the trial as randomised. |
+| EFSA 2015 (not a CSV row) | load-bearing | CONFIRMED (SECONDARY) | The DOI 10.2903/j.efsa.2015.4102 resolves to "Scientific Opinion on the safety of caffeine", EFSA Journal 13(5), 2015. Single doses up to 200 mg and habitual intake up to 400 mg/day raise no concern in healthy non-pregnant adults (confirmed via secondary coverage). EFSA expresses the single dose as about 3 mg/kg for a 70 kg adult. |
+
+**Framing note on dose (no number changed).** Recommendation 1's single-dose ceiling of "about 260 mg" is 3 mg/kg for
+87 kg. That is consistent with EFSA's per-kg basis, but **above EFSA's absolute 200 mg single-dose figure**. Kye should
+know that 175–200 mg sits inside both, and that 260 mg is a weight-scaled extrapolation. The daily ceiling of ≤400 mg
+matches EFSA.
+
+**Safety.** No dosing or sourcing is given for any banned stimulant. DMAA, DMHA and the others are named only as
+things to avoid. The recommendations are safe.
+
+**Verdict stands.** Nothing load-bearing was wrong.
