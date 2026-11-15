@@ -2,6 +2,11 @@
 
 Follow this every time you are asked to "do today's research run". Work autonomously and don't ask questions.
 
+## DEEP-DIVE MODE IS ACTIVE (from 2026-11-15)
+Research now follows **`DEEP-DIVE.md`**, with the screening and quality rules in **`APPRAISAL.md`**. One topic is
+researched exhaustively over many rounds. Use the sections below only for the stop switch, the overlap rule, syncing,
+the library updates (5b) and pushing. Where they conflict with DEEP-DIVE.md, DEEP-DIVE.md wins.
+
 ## Continuous mode (from 2026-11-15)
 The worker is woken **every 2 hours** and runs until Kye says stop. (Changed 2026-11-15 from hourly with 4 agents to every 2 hours with 2 agents, to stay within Kye's Pro usage.)
 - **Stop switch.** If the file `knowledge-base/STOP` exists, do nothing: reply "Stopped (STOP file present)" and end
