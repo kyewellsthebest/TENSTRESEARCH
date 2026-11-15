@@ -8,7 +8,7 @@ pages and the PDF digest.
 ---
 
 ### 2026-11-15 — creatine deep dive: screening under way (phase 2)
-1,600 of 4,587 records have been screened by title and abstract: 105 included, 14 maybe and 1,481 excluded. A second agent re-checks every batch. In batch 003 that check turned up one borderline record, so all 158 of that batch's other exclusions were re-screened; none changed. The verdict is unchanged until full-text appraisal. → [progress](knowledge-base/deep/creatine/progress.md)
+2,000 of 4,587 records have been screened by title and abstract: 105 included, 14 maybe and 1,881 excluded. A second agent re-checks every batch. In batch 003 that check turned up one borderline record, so all 158 of that batch's other exclusions were re-screened; none changed. The verdict is unchanged until full-text appraisal. → [progress](knowledge-base/deep/creatine/progress.md)
 
 ### 2026-11-15 — deep dive started: creatine (phase 1 of 6)
 Research has switched to **deep-dive mode**: one topic at a time, reviewed exhaustively. Creatine is first. The protocol is written,

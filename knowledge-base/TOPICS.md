@@ -14,7 +14,7 @@ any time; new requests go to the top.
 
 ### Supplements
 - [x] done (2026-11-15) — Creatine monohydrate: muscle, strength, cognition, kidney safety, loading, timing, non-responders
-  - **Deep dive in progress** (started 2026-11-15; phase 2 of 6: 1,600 of 4,587 records screened) → [`deep/creatine/progress.md`](deep/creatine/progress.md)
+  - **Deep dive in progress** (started 2026-11-15; phase 2 of 6: 2,000 of 4,587 records screened) → [`deep/creatine/progress.md`](deep/creatine/progress.md)
   - **Verdict (strong):** the best legal supplement, though the gain is modest: about +1.4 kg fat-free mass (part of it water) and a few kg on your lifts. Take 5 g a day at any time; loading is optional. It doesn't harm healthy kidneys but makes creatinine/eGFR blood tests read worse. The hair-loss scare is unfounded. → [`library/supplements/creatine.md`](../library/supplements/creatine.md)
 - [x] done (2026-11-15) — Caffeine and pre-workouts: performance, dose by body weight, sleep cost, habituation
   - **Verdict (strong for the acute effect; limited for the long term):** about +1–2% on 1RM and about 1 extra rep per set; 2–3 mg/kg (175–260 mg) is enough. It costs sleep if taken within about 8–10 h of bed. It doesn't build extra muscle. Branded pre-workouts add little but risk. → [`library/supplements/caffeine-preworkout.md`](../library/supplements/caffeine-preworkout.md)
