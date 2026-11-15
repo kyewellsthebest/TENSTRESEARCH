@@ -1,29 +1,45 @@
-# TENSR research
+# TENSR research — start here
 
-Research for Kye's TENSR muscle band and for evidence-based training, diet and supplements. Every finding is backed
-by studies, and each round was fact-checked by an independent auditor.
+Kye's research library on training, diet, supplements, fat loss and the TENSR muscle band. Every verdict is backed
+by studies and checked by an independent auditor. **New research lands here every 2 hours.**
 
-**This repo is the long-term memory.** Any session that picks the work up starts by reading `CLAUDE.md`, then
-`knowledge-base/README.md` and `knowledge-base/TOPICS.md`.
+## 👉 Where to look
 
-## Reports (PDFs)
+1. **[LATEST.md](LATEST.md)**: what's new, newest first.
+2. **[library/](library/)**: everything, by category:
+   - [Training](library/training/)
+   - [Exercises](library/exercises/)
+   - [Diet](library/diet/)
+   - [Fat loss](library/fat-loss/)
+   - [Supplements](library/supplements/)
+   - [Peptides & drugs](library/peptides-and-drugs/)
+   - [Recovery](library/recovery/)
+   - [Body measurement](library/body-measurement/)
+   - [TENSR product](library/tensr-product/)
+3. **PDFs**:
+   - daily digests in [knowledge-base/digests/](knowledge-base/digests/);
+   - the big reports, listed below.
 
-| Report | Folder |
+## Big reports
+
+| Report | File |
 |---|---|
-| TENSR scientific foundation (what the band can and can't measure) | `TENSR-RESEARCH-REPORT.pdf`, `START-HERE.md` |
-| Top-5 muscle-growth factors and how TENSR can track them | `top5/TENSR-TOP5-FACTORS.pdf` |
-| Tracking effort and failure | `failure/TENSR-EFFORT-FAILURE-TRACKING.pdf` |
-| Fat loss, carb cycling, fasted cardio, spot reduction, regional fat | `fatloss/FAT-LOSS-REPORT.pdf` |
-| Peptides: 48 substances ranked | `peptides/PEPTIDES-REPORT.pdf` |
-| One big day a week (binges) and Kye's stall | `binge/BINGE-REPORT.pdf` |
-| Daily digests (growing) | `knowledge-base/digests/` |
+| TENSR: what the band can measure | [TENSR-RESEARCH-REPORT.pdf](TENSR-RESEARCH-REPORT.pdf) |
+| Top-5 muscle-growth factors | [top5/TENSR-TOP5-FACTORS.pdf](top5/TENSR-TOP5-FACTORS.pdf) |
+| Tracking effort and failure | [failure/TENSR-EFFORT-FAILURE-TRACKING.pdf](failure/TENSR-EFFORT-FAILURE-TRACKING.pdf) |
+| Fat loss | [fatloss/FAT-LOSS-REPORT.pdf](fatloss/FAT-LOSS-REPORT.pdf) |
+| Peptides (48 ranked) | [peptides/PEPTIDES-REPORT.pdf](peptides/PEPTIDES-REPORT.pdf) |
+| Binges and your stall | [binge/BINGE-REPORT.pdf](binge/BINGE-REPORT.pdf) |
 
-## Layout
+## Behind the scenes
 
-- **Root files** (`TENSR-*.md`, `*.csv`, `PROTOCOL.md`, `agent-notes/`): the original TENSR investigation.
-- **One folder per research round:** `top5/`, `failure/`, `fatloss/`, `peptides/`, `binge/`. Each holds the brief,
-  the agent findings, the audit, the merged studies CSV, the PDF and the PDF builder.
-- **`knowledge-base/`:** the daily, self-expanding research. It holds the queue, the master studies list, notes,
-  digests and the run log.
+- `knowledge-base/TOPICS.md`: the research queue.
+- `knowledge-base/STUDIES.csv`: every study.
+- `knowledge-base/notes/`: raw notes per round.
+- `knowledge-base/LOG.md`: run history.
+- `knowledge-base/RUN.md`: the procedure.
+- `CLAUDE.md`: instructions for Claude.
+- Earlier research rounds keep their raw files in `top5/`, `failure/`, `fatloss/`, `peptides/`, `binge/` and
+  `agent-notes/`.
 
-Originally developed in `kyewellsthebest/MuscleBand` (branch `ccr-c079b319-0ogvjb`, folder `docs/research/`).
+**To stop the research:** create a file named `STOP` in `knowledge-base/`.

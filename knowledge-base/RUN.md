@@ -64,6 +64,24 @@ Budget: about 30 searches per agent.
    adapt `binge/make_binge_pdf.py`. Never use Unicode subscript characters.
 5. Commit with a clear message and push to `main`. Retry up to 4 times on network errors.
 
+## 5b. Update the library (Kye reads this, so it matters as much as the notes)
+For each topic researched this round:
+- Choose its category folder under `library/`: training, exercises, diet, fat-loss, supplements,
+  peptides-and-drugs, recovery, body-measurement or tensr-product. Add a new category folder only if none fits.
+- Create or update **one living page** `library/<category>/<topic-slug>.md`. It contains, in this order:
+  - a **Verdict** line (confidence Strong / Moderate / Limited / Very limited, last-updated date, and "Draft" if not
+    yet audited);
+  - **What to do** — 2–5 practical bullets for Kye;
+  - **Key numbers** — effect sizes with confidence intervals;
+  - **Caveats**;
+  - links to the dated note(s), the studies CSV and the digest PDF.
+
+  If the page already exists, update the verdict and add the new evidence. Never delete earlier findings without
+  saying why.
+- Update that category's `README.md` index table: Topic | Verdict | Confidence | Page.
+- Add an entry at the **top** of `LATEST.md`: date, topics, one-line verdict each, links to the pages and digest.
+  Replace any "in progress" placeholder for the same round.
+
 ## 6. Finish
 End with a 5–10 line summary:
 - the topics researched;
