@@ -87,6 +87,11 @@ For each topic researched this round:
 - Add an entry at the **top** of `LATEST.md`: date, topics, one-line verdict each, links to the pages and digest.
   Replace any "in progress" placeholder for the same round.
 
+## 5c. Update Kye's progress dashboard (every round, deep-dive or not)
+Kye follows the work at https://claude.ai/artifact/J4htqKcNA8Ka6nWrYVg5Tc. At the end of each round, append a row to
+`knowledge-base/progress/rounds.csv`, run `knowledge-base/progress/build_progress.py`, and re-upload the data files as
+`knowledge-base/progress/README.md` describes. Commit `rounds.csv` and `blobs.json` with the round.
+
 ## 6. Finish
 End with a 5–10 line summary:
 - the topics researched;

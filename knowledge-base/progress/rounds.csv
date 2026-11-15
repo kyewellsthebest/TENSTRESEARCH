@@ -1,0 +1,6 @@
+"round_at_utc","round","topic","phase","screened","included","maybe","excluded","to_screen","note"
+"2026-11-15T02:15:00Z","Survey round 1","4 supplements","survey","0","0","0","0","0","Quick survey of creatine, caffeine, protein powders, buffers/nitrates; 89 studies added"
+"2026-11-15T04:28:00Z","Deep dive 1","creatine","1 Protocol & search","0","0","0","0","4587","5,553 unique records found; 966 auto-filtered"
+"2026-11-15T06:28:00Z","Deep dive 2","creatine","2 Screening","400","46","10","344","4187","Batches 001-002"
+"2026-11-15T08:28:00Z","Deep dive 3","creatine","2 Screening","800","76","11","713","3787","Batches 003-004; rescue re-screen, 0 changes"
+"2026-11-15T10:29:00Z","Deep dive 4","creatine","2 Screening","1200","104","14","1082","3387","Batches 005-006; SR/MA rule adopted"

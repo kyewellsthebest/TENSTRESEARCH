@@ -1,5 +1,7 @@
 # Latest findings (newest first)
 
+**Live progress dashboard:** https://claude.ai/artifact/J4htqKcNA8Ka6nWrYVg5Tc (updated every round)
+
 Each research round adds an entry here: the date, the topics, a one-line verdict each, and links to the topic
 pages and the PDF digest.
 
