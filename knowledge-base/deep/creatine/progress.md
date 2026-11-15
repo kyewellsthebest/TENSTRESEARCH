@@ -1,7 +1,7 @@
 # Creatine deep dive — progress (resume point)
 
 **Active topic:** creatine monohydrate (deep-dive queue #1). **Tier B** (full primary review), per `protocol.md`.
-**Current phase:** 2 in progress (title/abstract screening): 3,600 of 4,587 screened (batches 001–018). **Next: batches 019–020.**
+**Current phase:** 2 in progress (title/abstract screening): 4,000 of 4,587 screened (batches 001–020). **Next: batches 021–023 (the last 587), then the consistency pass.**
 
 ## Funnel so far (PRISMA counts)
 
@@ -20,11 +20,11 @@
 | Auto-filter E09 retracted (PubMed "Retracted Publication") — all off-topic | 7 |
 | Auto-filter E16 patent records | 5 |
 | **Records for title/abstract screening** | **4,587** |
-| Screened so far (batches 001–018, verified) | 3,600 |
-| → include (trials + SR/MA mapping records) | 126 |
-| → maybe (to full text) | 25 |
-| → exclude (E03 1310, E02 1174, E06 556, E01 213, E07 139, E04 23, E14 19, E05 12, E13 2, E12 1) | 3,449 |
-| **Still to screen** | **987** (53 PubMed athlete-query records, 97 Europe PMC, 837 Semantic Scholar; 892 have no PMID, so abstracts come from Europe PMC or Semantic Scholar) |
+| Screened so far (batches 001–020, verified) | 4,000 |
+| → include (trials + SR/MA mapping records) | 144 |
+| → maybe (to full text) | 41 |
+| → exclude (E03 1413, E02 1219, E06 654, E01 250, E07 167, E04 28, E12 25, E14 24, E05 14, E08 11, E13 5, E16 5) | 3,815 |
+| **Still to screen** | **587** (all Semantic Scholar records, SS1-0251 onward; few have PMIDs) |
 
 New-after-dedup per search is in `searches.csv`.
 
@@ -32,6 +32,7 @@ New-after-dedup per search is in `searches.csv`.
 
 | date | phase | what was done | last record screened | next |
 |---|---|---|---|---|
+| 2026-11-15 19:40 | 2 | Third extra round at Kye's request. Batches 019 (SP8-0303…SS1-0050: last PubMed records, Europe PMC preprints/theses/abstracts, first Semantic Scholar) and 020 (SS1-0051…SS1-0250) screened and cross-verified (seeds 20261115019/20261115020; 80 records re-checked; no exclude overturned, no rescue). Changes: 5 maybes → exclude in batch 019 (SP8-0349, SE2-0014, SE2-0046, SS1-0029, SS1-0034); SS1-0110 include → maybe. SS1-0105 and SS1-0115 had been included from the screener's memory; the verifier confirmed both designs from OpenAlex abstracts and open reviews (Syrotuik is 37 days, not 8 weeks). SP1-1142 recoded E05→E08 (primary report is SE5-0001). Abstracts were unavailable for about half of the Semantic Scholar records. This round: 18 include, 16 maybe, 366 exclude. | SS1-0250 | Batches 021–023 |
 | 2026-11-15 19:27 | 2 | Second extra round at Kye's request. Batches 017 (SP7-0045…SP8-0100) and 018 (SP8-0101…SP8-0302) screened and cross-verified (seeds 20261115017/20261115018; 69 records re-checked). Batch 018: one flagged exclude (SP8-0219, rowers) changed to maybe after full text showed 30% gym RT, which triggered the **rescue rule**; 160 remaining excludes re-screened, 0 changed. Other changes: SP8-0157 maybe→include (full text: supervised RT twice a week), SP8-0210 maybe→E02 (mean age 17.4), SP8-0168 include→maybe (training not described), SP8-0072 maybe→E03 (full text: no RT in analysed sample). SP1-0698 (batch 004, same rower trial) reopened as maybe. This round: 14 include, 8 maybe, 378 exclude (plus SP1-0698 moved from exclude to maybe). | SP8-0302 | Batches 019–020, then the consistency pass below |
 | 2026-11-15 19:14 | 2 | Extra round at Kye's request ("continue"). Batches 015 (SP2-2540…SP2-2779) and 016 (SP2-2780…SP7-0044) screened and cross-verified (seeds 20261115015/20261115016; 59 records re-checked, no exclude overturned, no rescue). Batch 016 held the SP6/SP7 renal-safety records: 7 include (5 renal/safety SR/MAs, 1 heat-tolerance SR/MA, Kreider 2003), 4 maybe. One maybe changed to E06 (SP7-0013 Juhn 1998, narrative). This round: 7 include, 4 maybe, 389 exclude. | SP7-0044 | Batches 017–018 |
 | 2026-11-15 18:28 | 2 | Batches 013 (SP2-2064…SP2-2301) and 014 (SP2-2304…SP2-2539), all P2-only noise. Screened and cross-verified (seeds 20261115013/20261115014; 47 records re-checked, 47/47 agree, no rescue). This round: 0 include, 0 maybe, 400 exclude. | SP2-2539 | Batches 015–016 |
@@ -79,12 +80,23 @@ New-after-dedup per search is in `searches.csv`.
 - SP7-0097 (Zajac 2020, included): magnesium creatine chelate, not monohydrate; S&C twice a week, content not described; creatinine 1.87 mg/dL at week 4 needs a careful read.
 - SP8-0157 (Claudino 2014, included): body mass is the only eligible outcome. SP8-0255 (Wu 2022 scoping review, 16 RCTs on muscle growth) is the best citation-chasing source in batch 018.
 - Maybes with no reachable full text: SP7-0095, SP8-0013, SP8-0091, SP8-0127 (try other routes at phase 4, else E11).
+- **Batch 019–020 links.** SE5-0001 (Delbiondo 2026 preprint, included) is the primary report of the trial behind SP1-1142 (now E08); flags: preprint, the abstract's conclusion leans on a 0.38 kg difference with p=0.999 (F-SPIN), senior author advises creatine companies (F-COI). SE2-0011 (Krieger/Kerksick 2025 abstract, included) has a strength companion SS1-0419 in a later batch. SS1-0115 (Syrotuik 2000, included; 37 days, so strength only) has a thesis companion SS1-0136 (maybe; likely E08) and SS1-0475. SS1-0207 is probably a secondary report of SS1-0165. SS1-0220 (Cribb thesis, maybe) is probably the parent of SP1-0225/SP1-0250. SE2-0025 (E03) has a published version SS1-0479: give it the same code. SS1-0030 = SS1-0119; SS1-0072 = SS1-0036; SE6-0023 = SE6-0024.
+- Included on thin evidence, to check first at full text: SE2-0005 (preprint, about 4 per arm, no placebo), SS1-0050 (conference-abstract SR; E13/E10 if no full paper), SS1-0162 and SS1-0165 (TLDR only), SS1-0080/SS1-0250/SS1-0160/SS1-0196 (check venue, F-PRED), SS1-0208 and SS1-0250 (randomisation not stated).
+- SS1-0054 is the whole NSCA 2015 abstract book (E13): hand-search for creatine abstracts at citation chasing if wanted. SS1-0139 (Norwegian VKM safety opinion) and SS1-0217 (Forbes 2025 narrative review) are citation-chasing sources.
 - SP1-0076 (include) has an electrical-stimulation co-stimulus and unsupervised voluntary training. Flag F-SUPERV.
 
 ## Open issue: "RT not stated" in athlete samples (found 2026-11-15 19:27)
 Batches 001–005 excluded creatine-vs-placebo trials in athletes as **E03** when the abstract named no RT programme. From batch 016 on, such records were marked **maybe**. The SP8-0219 / SP1-0698 rower trial shows the abstract can hide a gym RT component. To make the screening consistent:
 1. **Consistency pass (do after the last screening batch, before phase 3).** Re-screen every earlier E03 exclude whose reason is "creatine but no or unstated RT programme" in a healthy athlete or active sample with at least 4 weeks of creatine vs placebo. `screening/consistency-pass-candidates.json` holds a first keyword-based list (66 record ids) to start from; check each against Europe PMC full text where open, and move to maybe unless the abstract or full text positively rules RT out. Log it as a verification pass.
 2. **Operational definition of "structured RT programme" (proposed; apply at full-text eligibility, phase 4).** The protocol requires creatine "combined with a structured RT programme" but does not say how much RT embedded in sport or occupational training counts. Proposed rule, written before any effect sizes were extracted: RT counts when the full text shows both arms performed resistance exercise (named exercises or a gym/strength session) at least once a week for the whole intervention, prescribed or supervised by the study or team. Flag F-SUPERV and F-EQUATE where the content is not described, and treat such trials as indirect for the trained-lifter subgroup. "Habitual training", sport practice only, or unspecified "conditioning" does not count (E03). This decides SP7-0097 (Zajac), SP8-0219/SP1-0698 (rowers), SP8-0168 (military police) and similar records. Record it in `protocol.md` as a dated clarification when phase 4 starts.
+
+## Abstract retrieval for Semantic Scholar records (learned in batches 019–020)
+- Semantic Scholar's batch API returns an abstract for only about a third of these records. **OpenAlex DOI lookups still work** even when its search budget is exhausted (`https://api.openalex.org/works/https://doi.org/<doi>`, field `abstract_inverted_index`); use that next, then Crossref, then Europe PMC.
+- Semantic Scholar's one-line "TLDR" is machine-written and sometimes wrong. It may support a decision but must be named in `ta_reason`; never include a study on a TLDR or on memory alone without marking "design unverified".
+- Publisher, J-STAGE and university-repository pages are blocked by the proxy. Thesis and conference-abstract maybes mostly cannot be resolved here; at phase 4 code them E11 (awaiting) if still unreachable.
+
+## Non-English records that look eligible on content (E12, count only; report in the synthesis)
+SS1-0124 (Korean, soldiers, 4 wk combined exercise + creatine vs placebo), SS1-0192 with companion SS1-0011 (Korean, football players, 5 wk strength training), SS1-0078 (Portuguese, creatine vs placebo, strength; design unverified). SS1-0097 (Portuguese SR) and SS1-0026 (Spanish SR in vegetarians; its three trials are already accounted for) would be mapping records if English.
 
 ## Efficiency note
 (The P2-only records were finished in batch 016.) Records found only by P2 (no supplement term) are almost all noise (batch 006: 1 include in 200). They are still screened in full for recall, but a screener can decide most of them on the title alone.
