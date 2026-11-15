@@ -1,7 +1,7 @@
 # Creatine deep dive — progress (resume point)
 
 **Active topic:** creatine monohydrate (deep-dive queue #1). **Tier B** (full primary review), per `protocol.md`.
-**Current phase:** 2 in progress (title/abstract screening): 2,800 of 4,587 screened (batches 001–014). **Next: batches 015–016.**
+**Current phase:** 2 in progress (title/abstract screening): 3,200 of 4,587 screened (batches 001–016). **Next: batches 017–018.**
 
 ## Funnel so far (PRISMA counts)
 
@@ -20,11 +20,11 @@
 | Auto-filter E09 retracted (PubMed "Retracted Publication") — all off-topic | 7 |
 | Auto-filter E16 patent records | 5 |
 | **Records for title/abstract screening** | **4,587** |
-| Screened so far (batches 001–014, verified) | 2,800 |
-| → include (trials + SR/MA mapping records) | 105 |
-| → maybe (to full text) | 14 |
-| → exclude (E02 990, E03 954, E06 459, E01 152, E07 80, E14 19, E04 15, E05 9, E13 2, E12 1) | 2,681 |
-| **Still to screen** | **1,787** (260 of them found only by the P2 sensitivity query, without the supplement term) |
+| Screened so far (batches 001–016, verified) | 3,200 |
+| → include (trials + SR/MA mapping records) | 112 |
+| → maybe (to full text) | 18 |
+| → exclude (E02 1156, E03 1081, E06 522, E01 176, E07 87, E14 19, E04 17, E05 9, E13 2, E12 1) | 3,070 |
+| **Still to screen** | **1,387** (the P2-only sensitivity records are finished; what remains is SP7/SP8 PubMed renal and athlete queries, Europe PMC and Semantic Scholar) |
 
 New-after-dedup per search is in `searches.csv`.
 
@@ -32,6 +32,7 @@ New-after-dedup per search is in `searches.csv`.
 
 | date | phase | what was done | last record screened | next |
 |---|---|---|---|---|
+| 2026-11-15 19:14 | 2 | Extra round at Kye's request ("continue"). Batches 015 (SP2-2540…SP2-2779) and 016 (SP2-2780…SP7-0044) screened and cross-verified (seeds 20261115015/20261115016; 59 records re-checked, no exclude overturned, no rescue). Batch 016 held the SP6/SP7 renal-safety records: 7 include (5 renal/safety SR/MAs, 1 heat-tolerance SR/MA, Kreider 2003), 4 maybe. One maybe changed to E06 (SP7-0013 Juhn 1998, narrative). This round: 7 include, 4 maybe, 389 exclude. | SP7-0044 | Batches 017–018 |
 | 2026-11-15 18:28 | 2 | Batches 013 (SP2-2064…SP2-2301) and 014 (SP2-2304…SP2-2539), all P2-only noise. Screened and cross-verified (seeds 20261115013/20261115014; 47 records re-checked, 47/47 agree, no rescue). This round: 0 include, 0 maybe, 400 exclude. | SP2-2539 | Batches 015–016 |
 | 2026-11-15 16:28 | 2 | Batches 011 (SP2-1542…SP2-1811) and 012 (SP2-1812…SP2-2062), all P2-only noise. Screened and cross-verified (seeds 20261115011/20261115012; 48 records re-checked, 48/48 agree, no rescue). This round: 0 include, 0 maybe, 400 exclude. | SP2-2062 | Batches 013–014 |
 | 2026-11-15 14:28 | 2 | Batches 009 (SP2-0997…SP2-1279) and 010 (SP2-1280…SP2-1541), all P2-only noise. Screened and cross-verified (seeds 20261115009/20261115010; 47 records re-checked, 47/47 agree, no rescue). This round: 0 include, 0 maybe, 400 exclude. | SP2-1541 | Batches 011–012 |
@@ -48,7 +49,7 @@ New-after-dedup per search is in `searches.csv`.
 - Samples aged mainly >50 (e.g. 48–72, 55–70) are E02. If the age isn't reported in the abstract, mark maybe (decided at full text).
 - **SR/MA rule (adopted 2026-11-15 10:29):** keep a creatine-specific SR/MA as a mapping record whenever its eligibility criteria could admit a trial meeting our PICOS (human creatine vs placebo/no creatine, RT co-intervention not excluded), whatever its outcomes or population. If its own criteria rule out any such trial, code it E05 (e.g. SP1-1040, cognition in people 55+ that excludes RT). Creatine plus a co-ingredient SR/MA (beta-alanine, HMB) counts as creatine-specific. **Clarified 12:28:** for this rule only the intervention, comparator and design parts of the PICOS count. A creatine-specific SR/MA restricted to a clinical or older population is still kept as a mapping record, as in batches 001–008 (e.g. SP1-0223/0340/0410, SP2-0978), because mapping records only feed citation chasing.
 - A partial age overlap is decided at screening if the abstract reports both mean and range (e.g. SP1-1114, mean 54.5: E02). It goes to maybe only if age isn't reported.
-- Multi-supplement or multi-drug SR/MAs that aren't creatine-specific are E03, but list them as citation-chasing sources (SP1-0511, SP1-0655, SP1-0917, SP1-1083, SP1-1066, SP1-1024, SP1-1034, SP1-1097, SP1-1130, SP1-0946, SP2-1280 Candow 2012, SP2-1059, SP2-1266, SP2-1677, SP2-1825, **SP2-2273** (SR/MA of nutrition + RT in older adults: creatine subgroup of 4 trials, LBM MD 2.61 kg, 95% CI 0.51 to 4.72; chase all 4), SP2-2075 (Cochrane SMA multi-drug review)).
+- Multi-supplement or multi-drug SR/MAs that aren't creatine-specific are E03, but list them as citation-chasing sources (SP1-0511, SP1-0655, SP1-0917, SP1-1083, SP1-1066, SP1-1024, SP1-1034, SP1-1097, SP1-1130, SP1-0946, SP2-1280 Candow 2012, SP2-1059, SP2-1266, SP2-1677, SP2-1825, **SP2-2273** (SR/MA of nutrition + RT in older adults: creatine subgroup of 4 trials, LBM MD 2.61 kg, 95% CI 0.51 to 4.72; chase all 4), SP2-2075 (Cochrane SMA multi-drug review), SP2-2840 (EFSA 2016 opinion on creatine + RT in adults over 55), SP2-2656 (Bonilla 2024 opinion), SP6-0014 (Meuffels 2022), SP7-0013 (Juhn 1998 narrative side-effects review)).
 - Plyometric-only training with no RT outcome is E05 (SP1-0521); E03 is also defensible.
 
 ## Links to resolve at full text / citation chasing
@@ -68,10 +69,15 @@ New-after-dedup per search is in `searches.csv`.
 - Measurement context: SP2-1762 (Bone 2017) shows creatine loading raises total body water by about 1.4% and shifts DXA lean mass. Use it for F-TIMING judgements at the risk-of-bias stage.
 - SP2-1026, SP2-1235 and SP2-1265 are versions of one Cochrane SMA multi-drug review (E02; includes one creatine trial in children).
 - Correction notices: SP1-1089 corrects SP1-1046; SP1-1101 corrects SP1-1090. Read both corrections at full text.
+- **Renal block (batch 016).** SP6-0011, SP6-0018, SP6-0019 and SP6-0021 are four overlapping renal meta-analyses; do the overlap check at AMSTAR 2. SP6-0003 (Lopez 2009, heat/hydration SR/MA) is included on its abstract only; recode E05 if its full-text criteria restrict to acute exercise-in-heat trials. SP6-0020 (adolescent safety SR) is included for mapping only and is weak (PubMed only, 5 studies).
+- SP7-0022 (Kreider 2003, included for safety outcomes only, ROBINS-I): confirm RT at full text. It is a different cohort from SP1-0116 (Mayhew 2002). Its likely companions are the Greenwood 2003 injury reports: PMID 12701814 (not in records.csv; add at citation chasing) and SP8-0047. Check all three for cohort overlap.
+- Maybes needing full text that the proxy blocked (Europe PMC has no XML; PMC and publisher pages returned 403): SP7-0014 Poortmans 1999, SP7-0015 Robinson 2000, SP7-0041 Cancela 2008, SP7-0031 Shi 2005. Try again at phase 4 via other routes; if still unreachable, code E11 (awaiting).
+- Renal-safety context, excluded E03 (no RT), not pooled: SP7-0038 Gualano 2008 (3-month RCT with aerobic training, cystatin C 0.82→0.71 mg/L creatine vs 0.88→0.75 placebo, n=18), SP7-0011 Poortmans 1997 (5-day loading), SP7-0029 (ALS, about 310 days), SP7-0042 (Parkinson's, 2 years), SP2-2705 (children with FSHD, creatinine +12.6 µmol/L).
+- SP6-0001/0002/0004/0006 are four versions of one Cochrane McArdle review (E02). SP7-0028 and SP7-0037 are probably one haemodialysis trial (E02).
 - SP1-0076 (include) has an electrical-stimulation co-stimulus and unsupervised voluntary training. Flag F-SUPERV.
 
 ## Efficiency note
-Records found only by P2 (no supplement term) are almost all noise (batch 006: 1 include in 200). They are still screened in full for recall, but a screener can decide most of them on the title alone.
+(The P2-only records were finished in batch 016.) Records found only by P2 (no supplement term) are almost all noise (batch 006: 1 include in 200). They are still screened in full for recall, but a screener can decide most of them on the title alone.
 
 ## Instructions for the next round (phase 2)
 
