@@ -3,7 +3,7 @@
 Follow this every time you are asked to "do today's research run". Work autonomously and don't ask questions.
 
 ## Continuous mode (from 2026-11-15)
-The worker is woken **every hour** and runs until Kye says stop.
+The worker is woken **every 2 hours** and runs until Kye says stop. (Changed 2026-11-15 from hourly with 4 agents to every 2 hours with 2 agents, to stay within Kye's Pro usage.)
 - **Stop switch.** If the file `knowledge-base/STOP` exists, do nothing: reply "Stopped (STOP file present)" and end
   the turn. Kye can create that file on GitHub to stop the research without talking to Claude.
 - **Overlap.** If a run is somehow still in progress (uncommitted notes from this hour), finish and commit that
@@ -18,9 +18,9 @@ The worker is woken **every hour** and runs until Kye says stop.
 - Never rely on memory from earlier runs; the repo is the source of truth.
 
 ## 1. Pick topics
-- Take the first **four** topics marked "open" in `TOPICS.md`. Topics Kye added at the top come first.
+- Take the first **two** topics marked "open" in `TOPICS.md`. Topics Kye added at the top come first.
 
-## 2. Research (four background research agents in parallel, one per topic)
+## 2. Research (two background research agents in parallel, one per topic)
 Brief each agent to:
 - find the meta-analyses, RCTs and key trials, preferring trained lifters and longitudinal outcomes;
 - use full text via PubMed E-utilities (eutils.ncbi.nlm.nih.gov), PMC (pmc.ncbi.nlm.nih.gov), Europe PMC REST
@@ -41,8 +41,8 @@ Each agent writes `knowledge-base/notes/<YYYY-MM-DD>-<topic-slug>.md`, ending wi
 Budget: about 30 searches per agent.
 
 ## 3. Audit
-- When all four agents finish, launch one independent auditor agent.
-- It verifies the load-bearing citations and numbers in all four notes, plus a seeded random sample of 8 more rows.
+- When both agents finish, launch one independent auditor agent.
+- It verifies the load-bearing citations and numbers in both notes, plus a seeded random sample of 8 more rows.
 - It appends an "Audit" section with corrections to each note.
 
 ## 4. Keep the queue growing
