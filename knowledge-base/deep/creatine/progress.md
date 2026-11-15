@@ -1,7 +1,7 @@
 # Creatine deep dive — progress (resume point)
 
 **Active topic:** creatine monohydrate (deep-dive queue #1). **Tier B** (full primary review), per `protocol.md`.
-**Current phase:** 2 in progress (title/abstract screening): 3,200 of 4,587 screened (batches 001–016). **Next: batches 017–018.**
+**Current phase:** 2 in progress (title/abstract screening): 3,600 of 4,587 screened (batches 001–018). **Next: batches 019–020.**
 
 ## Funnel so far (PRISMA counts)
 
@@ -20,11 +20,11 @@
 | Auto-filter E09 retracted (PubMed "Retracted Publication") — all off-topic | 7 |
 | Auto-filter E16 patent records | 5 |
 | **Records for title/abstract screening** | **4,587** |
-| Screened so far (batches 001–016, verified) | 3,200 |
-| → include (trials + SR/MA mapping records) | 112 |
-| → maybe (to full text) | 18 |
-| → exclude (E02 1156, E03 1081, E06 522, E01 176, E07 87, E14 19, E04 17, E05 9, E13 2, E12 1) | 3,070 |
-| **Still to screen** | **1,387** (the P2-only sensitivity records are finished; what remains is SP7/SP8 PubMed renal and athlete queries, Europe PMC and Semantic Scholar) |
+| Screened so far (batches 001–018, verified) | 3,600 |
+| → include (trials + SR/MA mapping records) | 126 |
+| → maybe (to full text) | 25 |
+| → exclude (E03 1310, E02 1174, E06 556, E01 213, E07 139, E04 23, E14 19, E05 12, E13 2, E12 1) | 3,449 |
+| **Still to screen** | **987** (53 PubMed athlete-query records, 97 Europe PMC, 837 Semantic Scholar; 892 have no PMID, so abstracts come from Europe PMC or Semantic Scholar) |
 
 New-after-dedup per search is in `searches.csv`.
 
@@ -32,6 +32,7 @@ New-after-dedup per search is in `searches.csv`.
 
 | date | phase | what was done | last record screened | next |
 |---|---|---|---|---|
+| 2026-11-15 19:27 | 2 | Second extra round at Kye's request. Batches 017 (SP7-0045…SP8-0100) and 018 (SP8-0101…SP8-0302) screened and cross-verified (seeds 20261115017/20261115018; 69 records re-checked). Batch 018: one flagged exclude (SP8-0219, rowers) changed to maybe after full text showed 30% gym RT, which triggered the **rescue rule**; 160 remaining excludes re-screened, 0 changed. Other changes: SP8-0157 maybe→include (full text: supervised RT twice a week), SP8-0210 maybe→E02 (mean age 17.4), SP8-0168 include→maybe (training not described), SP8-0072 maybe→E03 (full text: no RT in analysed sample). SP1-0698 (batch 004, same rower trial) reopened as maybe. This round: 14 include, 8 maybe, 378 exclude (plus SP1-0698 moved from exclude to maybe). | SP8-0302 | Batches 019–020, then the consistency pass below |
 | 2026-11-15 19:14 | 2 | Extra round at Kye's request ("continue"). Batches 015 (SP2-2540…SP2-2779) and 016 (SP2-2780…SP7-0044) screened and cross-verified (seeds 20261115015/20261115016; 59 records re-checked, no exclude overturned, no rescue). Batch 016 held the SP6/SP7 renal-safety records: 7 include (5 renal/safety SR/MAs, 1 heat-tolerance SR/MA, Kreider 2003), 4 maybe. One maybe changed to E06 (SP7-0013 Juhn 1998, narrative). This round: 7 include, 4 maybe, 389 exclude. | SP7-0044 | Batches 017–018 |
 | 2026-11-15 18:28 | 2 | Batches 013 (SP2-2064…SP2-2301) and 014 (SP2-2304…SP2-2539), all P2-only noise. Screened and cross-verified (seeds 20261115013/20261115014; 47 records re-checked, 47/47 agree, no rescue). This round: 0 include, 0 maybe, 400 exclude. | SP2-2539 | Batches 015–016 |
 | 2026-11-15 16:28 | 2 | Batches 011 (SP2-1542…SP2-1811) and 012 (SP2-1812…SP2-2062), all P2-only noise. Screened and cross-verified (seeds 20261115011/20261115012; 48 records re-checked, 48/48 agree, no rescue). This round: 0 include, 0 maybe, 400 exclude. | SP2-2062 | Batches 013–014 |
@@ -74,7 +75,16 @@ New-after-dedup per search is in `searches.csv`.
 - Maybes needing full text that the proxy blocked (Europe PMC has no XML; PMC and publisher pages returned 403): SP7-0014 Poortmans 1999, SP7-0015 Robinson 2000, SP7-0041 Cancela 2008, SP7-0031 Shi 2005. Try again at phase 4 via other routes; if still unreachable, code E11 (awaiting).
 - Renal-safety context, excluded E03 (no RT), not pooled: SP7-0038 Gualano 2008 (3-month RCT with aerobic training, cystatin C 0.82→0.71 mg/L creatine vs 0.88→0.75 placebo, n=18), SP7-0011 Poortmans 1997 (5-day loading), SP7-0029 (ALS, about 310 days), SP7-0042 (Parkinson's, 2 years), SP2-2705 (children with FSHD, creatinine +12.6 µmol/L).
 - SP6-0001/0002/0004/0006 are four versions of one Cochrane McArdle review (E02). SP7-0028 and SP7-0037 are probably one haemodialysis trial (E02).
+- **Batch 017–018 links.** SP7-0132 (Kreider 2025) and SP7-0145 (Gonzalez 2026) are one review family (same 685-trial dataset; AlzChem paid the publication fee: F-COI); count once, and use Kreider 2025 Supplemental File 1 for citation chasing. SP8-0047 (Greenwood 2003, included for safety only; full text confirms RT 4 d/wk) is a likely companion of SP7-0022 and PMID 12701814. SP7-0050 = SP8-0117 (Gualano 2011, type 2 diabetes, E02; measured GFR unchanged: renal context). SP8-0040 (E05) is the SP1-0143/SP1-0235 rugby cohort. SP8-0133 = SP8-0172; SP8-0141/0146/0175 one cohort (E07).
+- SP7-0097 (Zajac 2020, included): magnesium creatine chelate, not monohydrate; S&C twice a week, content not described; creatinine 1.87 mg/dL at week 4 needs a careful read.
+- SP8-0157 (Claudino 2014, included): body mass is the only eligible outcome. SP8-0255 (Wu 2022 scoping review, 16 RCTs on muscle growth) is the best citation-chasing source in batch 018.
+- Maybes with no reachable full text: SP7-0095, SP8-0013, SP8-0091, SP8-0127 (try other routes at phase 4, else E11).
 - SP1-0076 (include) has an electrical-stimulation co-stimulus and unsupervised voluntary training. Flag F-SUPERV.
+
+## Open issue: "RT not stated" in athlete samples (found 2026-11-15 19:27)
+Batches 001–005 excluded creatine-vs-placebo trials in athletes as **E03** when the abstract named no RT programme. From batch 016 on, such records were marked **maybe**. The SP8-0219 / SP1-0698 rower trial shows the abstract can hide a gym RT component. To make the screening consistent:
+1. **Consistency pass (do after the last screening batch, before phase 3).** Re-screen every earlier E03 exclude whose reason is "creatine but no or unstated RT programme" in a healthy athlete or active sample with at least 4 weeks of creatine vs placebo. `screening/consistency-pass-candidates.json` holds a first keyword-based list (66 record ids) to start from; check each against Europe PMC full text where open, and move to maybe unless the abstract or full text positively rules RT out. Log it as a verification pass.
+2. **Operational definition of "structured RT programme" (proposed; apply at full-text eligibility, phase 4).** The protocol requires creatine "combined with a structured RT programme" but does not say how much RT embedded in sport or occupational training counts. Proposed rule, written before any effect sizes were extracted: RT counts when the full text shows both arms performed resistance exercise (named exercises or a gym/strength session) at least once a week for the whole intervention, prescribed or supervised by the study or team. Flag F-SUPERV and F-EQUATE where the content is not described, and treat such trials as indirect for the trained-lifter subgroup. "Habitual training", sport practice only, or unspecified "conditioning" does not count (E03). This decides SP7-0097 (Zajac), SP8-0219/SP1-0698 (rowers), SP8-0168 (military police) and similar records. Record it in `protocol.md` as a dated clarification when phase 4 starts.
 
 ## Efficiency note
 (The P2-only records were finished in batch 016.) Records found only by P2 (no supplement term) are almost all noise (batch 006: 1 include in 200). They are still screened in full for recall, but a screener can decide most of them on the title alone.
