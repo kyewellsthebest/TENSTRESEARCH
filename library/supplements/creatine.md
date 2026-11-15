@@ -3,7 +3,7 @@
 **Verdict:** the best-evidenced legal supplement for lifters, though the gain is modest. Confidence **Strong** (muscle, strength,
 kidney safety); **Limited** (cognition, non-responders). Last updated 2026-11-15, audited.
 
-> **Deep dive in progress (phase 2 of 6: screening, 1,200 of 4,587 records screened, 2026-11-15).** The verdict below comes from the round-1 survey. A full systematic-review-style deep dive is under way (5,553 records found; 104 likely-eligible studies and reviews so far). The verdict will be updated as it progresses. Progress: [`knowledge-base/deep/creatine/progress.md`](../../knowledge-base/deep/creatine/progress.md)
+> **Deep dive in progress (phase 2 of 6: screening, 1,600 of 4,587 records screened, 2026-11-15).** The verdict below comes from the round-1 survey. A full systematic-review-style deep dive is under way (5,553 records found; 105 likely-eligible studies and reviews so far). The verdict will be updated as it progresses. Progress: [`knowledge-base/deep/creatine/progress.md`](../../knowledge-base/deep/creatine/progress.md)
 
 ## What to do
 - Take **5 g of creatine monohydrate every day**, rest days included, at whatever time you'll remember. Timing makes
