@@ -44,7 +44,7 @@ New-after-dedup per search is in `searches.csv`.
    - If that pass rescues any eligible record, re-screen all of that batch's excludes.
 3. **Still owed from phase 1:**
    - Run **OpenAlex (O1)** once the IP budget resets (after 00:00 UTC). Merge any new records with
-     `/tmp/.../merge_creatine.py`-style logic: the dedup order is DOI, then PMID, then title+year+author.
+     `merge_records.py` (run as `python3 merge_records.py .` from this folder; extend it to read `raw/openalex.csv`): the dedup order is DOI, then PMID, then title+year+author.
      Give new records ids `SO1-xxxx`.
    - **Optional fix-up search** with a bare `strength` / `"strength performance"` term in Europe PMC. The Lanhers
      2015 and 2017 meta-analyses were missed by Europe PMC and Semantic Scholar, but PubMed found both.
