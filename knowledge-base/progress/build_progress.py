@@ -54,7 +54,10 @@ dump('phases', rows)
 # 4. Topic queue (deep-dive queue order from DEEP-DIVE.md)
 dd = open(KB + '/DEEP-DIVE.md').read().split('## Deep-dive queue')[1]
 q = [re.sub(r'\s*\(.*?\)', '', l.split('. ', 1)[1]).strip() for l in dd.splitlines() if re.match(r'^\d+\. ', l)]
-dump('queue', [{"position": i + 1, "topic": t, "status": ('Deep dive in progress' if i == 0 else 'Waiting')} for i, t in enumerate(q)])
+paused = '**Paused' in open(KB + '/deep/creatine/progress.md').read()   # a pause note at the top of progress.md
+dump('queue', [{"position": i + 1, "topic": t,
+                "status": (('Deep dive paused (phase %d)' % cur if paused else 'Deep dive in progress') if i == 0 else 'Waiting')}
+               for i, t in enumerate(q)])
 
 # 5. Library verdicts so far (from library category READMEs)
 verd = []
