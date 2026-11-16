@@ -24,7 +24,7 @@ I label it every time.
 **A word on the Barbalho papers.** One research group (first author Barbalho) published five trials on compound vs
 isolation exercises, mostly concluding that isolation work adds nothing (corrected at audit: the draft said four).
 
-- Two are **retracted**: Barbalho2020 (recreational bodybuilders, Eur J Sport Sci; retracted August 2022) and a
+- Two are **retracted**: Barbalho2020a (recreational bodybuilders, Eur J Sport Sci; retracted August 2022) and a
   trial in untrained young women that is not a CSV row (J Strength Cond Res 2020;34(8):2214-2219, PMID 29781936;
   retracted January 2022).
 - One has a 2026 **Expression of Concern** about the validity of its data (Barbalho2018a).
@@ -36,10 +36,11 @@ I give all of them no weight. The four that are CSV rows are there only so nobod
 that lean on them (for example Gentil 2017, doi 10.1007/s40279-016-0627-5, not a CSV row; ABSTRACT) should be read
 with that in mind.
 
-**Key clash with the lower-body note.** "Barbalho2020" in this file is the retracted bodybuilder trial (doi
-10.1080/17461391.2019.1611932). "Barbalho2020" in the lower-body file is a different paper: the squat vs hip thrust
-trial (doi 10.1055/a-1082-1126), which has no notice. "Nunes2020" is also two different papers (preacher curls here,
-calf raises there). Give them separate keys before merging into `STUDIES.csv`.
+**Keys shared with the lower-body note (renamed 2026-11-16 at merge).** Barbalho2020a in this file is the retracted
+bodybuilder trial (doi 10.1080/17461391.2019.1611932). The lower-body file's Barbalho2020b is a different paper: the
+squat vs hip thrust trial (doi 10.1055/a-1082-1126), which has no notice. Nunes2020a here is the preacher-curl trial;
+Nunes2020b there is the calf-raise trial. Haugen2023b is the free-weights vs machines meta-analysis; plain Haugen2023
+in `STUDIES.csv` is an unrelated citrulline trial from round 1.
 
 ---
 
@@ -51,7 +52,7 @@ calf raises there). Give them separate keys before merging into `STUDIES.csv`.
     difference in percentage change was 2.0% or less (P ≥ 0.208).
   - MarcosFrutos2025 (ABSTRACT): 37 sport-science students, 8 weeks, free-weight vs Smith-machine bench. Pec
     cross-sectional area improved "comparably". No numbers in the abstract.
-  - Haugen2023 (FULL; 13 studies, 5 with a size measure): hypertrophy SMD −0.055 (95% CI −0.397 to 0.287). Heidel2022
+  - Haugen2023b (FULL; 13 studies, 5 with a size measure): hypertrophy SMD −0.055 (95% CI −0.397 to 0.287). Heidel2022
     (ABSTRACT): ES −0.01, with a wide interval. Both pool whole-body programmes, and the intervals are wide enough to
     hide a small real difference.
   - Schwanbeck2020 (ABSTRACT; n = 46, 8 weeks): no difference in biceps or quadriceps thickness. Chest not measured.
@@ -167,7 +168,7 @@ calf raises there). Give them separate keys before merging into `STUDIES.csv`.
   - Larsen2026 (FULL): 24 beginners, 10 weeks, shoulder neutral vs fully extended. Difference −0.40 mm (95% CrI −1.06 to
     0.26) at one site and +0.21 mm (−0.25 to 0.65) at the other. No meaningful difference.
 - **Where in the curl the load is heaviest does not change growth.** Strength: **limited**.
-  - Nunes2020 (FULL): 35 beginners, 10 weeks, cable preacher (hardest at the top) vs barbell preacher (hardest at the
+  - Nunes2020a (FULL): 35 beginners, 10 weeks, cable preacher (hardest at the top) vs barbell preacher (hardest at the
     bottom). Biceps +7% vs +8% (p = 0.346). Strength at long muscle length rose more with the barbell (+39% vs +30%).
   - Varovic2025 (ABSTRACT; meta-analysis, 12 studies, all muscles): training at longer vs shorter length changed
     regional growth by a trivial 0.6–1.9%. Wolf2025 (ABSTRACT; 30 trained lifters): lengthened partials = full range
@@ -244,7 +245,7 @@ calf raises there). Give them separate keys before merging into `STUDIES.csv`.
   - Heidel2022 (ABSTRACT; meta-analysis): tested on free weights, free-weight training wins (ES 0.655, 95% CI 0.269 to
     1.041). Tested on the machine, machine training wins (ES −0.784, −1.223 to −0.344). Tested on a neutral device, no
     difference (ES 0.128, −0.303 to 0.559).
-  - Haugen2023 (FULL): free-weight tests favour free-weight training (SMD −0.210, −0.391 to −0.029). Machine tests
+  - Haugen2023b (FULL): free-weight tests favour free-weight training (SMD −0.210, −0.391 to −0.029). Machine tests
     lean to machine training (SMD 0.291, −0.017 to 0.600).
   - Saeterbakken2025 (FULL; 43 studies, 1,660 people): lifting raised strength in the trained lift by SMD 0.98 (0.91 to
     1.06), but in an untrained isometric test by only 0.42 (0.35 to 0.49). In trained lifters: 0.75 vs 0.29. Muscle
@@ -361,7 +362,7 @@ Ranked picks per muscle. Where I write "any", the evidence says they are equal o
 - **Rosa2023:** not in PubMed. Abstract seen via OpenAlex and Semantic Scholar only (the auditor also saw it on
   Crossref). No numbers. The table of included trials was not seen. The auditor read the Crossref reference list: no
   Barbalho trial is cited (see section 7).
-- **Barbalho papers:** Barbalho2020 retraction confirmed on PubMed and Crossref. Barbalho2018a Expression of Concern
+- **Barbalho papers:** Barbalho2020a retraction confirmed on PubMed and Crossref. Barbalho2018a Expression of Concern
   confirmed (doi 10.3390/sports14060240). For Barbalho2021, PubMed lists an erratum with doi 10.1055/a-1400-4290, but
   Crossref resolves that DOI to an unrelated 2016 correction. I could not verify what the erratum says. (Auditor: the
   erratum record, PMID 33733437, is tagged as a correction to both the 2016 paper and Barbalho2021, and its PMID
@@ -386,18 +387,18 @@ Ranked picks per muscle. Where I write "any", the evidence says they are equal o
 - **EMG rows** (RodriguezRidao2020, Trebs2010, Solstad2020, Saeterbakken2011, Saeterbakken2021, Andersen2014,
   Lusk2010, Buonsenso2025, Doma2013, Campos2020, Franke2015, Rabello2024, Coratella2020) are acute data. They must not
   be upgraded to training evidence in the library file.
-- **Overlap:** Heidel2022 and Haugen2023 pool many of the same trials. Schoenfeld is a co-author on Larsen2025,
+- **Overlap:** Heidel2022 and Haugen2023b pool many of the same trials. Schoenfeld is a co-author on Larsen2025,
   Brandao2020, Rosa2023, Kassiano2022, Varovic2025, Wolf2025 and BazValle2019, so these are not fully independent.
 - **Searches:** about 39 (PubMed E-utilities 30, Europe PMC 6, Crossref 1, Semantic Scholar 2). Both Semantic Scholar
   searches returned HTTP 429 and gave nothing. Every DOI in the CSV was resolved on Crossref and checked for
   `update-to`/`updated-by`, except Solstad2020 and Franke2015, which have no DOI in PubMed. No retractions other than
-  Barbalho2020.
+  Barbalho2020a.
 
 ## Audit (2026-11-16)
 
 Independent audit. Every DOI checked was resolved on Crossref and matched to its PubMed record (title, authors, year,
 journal, volume, pages). Numbers were checked against PubMed abstracts and, where open, Europe PMC full text
-(Larsen2025, Gentil2015, Kikuchi2017, Haugen2023, Saeterbakken2025, DiFonza2026, BazValle2019, Nunes2020, Larsen2026).
+(Larsen2025, Gentil2015, Kikuchi2017, Haugen2023b, Saeterbakken2025, DiFonza2026, BazValle2019, Nunes2020a, Larsen2026).
 Retractions and corrections were checked through Crossref `updated-by` and the `updates:` filter, PubMed
 comment/correction links, Europe PMC and OpenAlex. Publisher sites (Thieme, Taylor & Francis, BMJ, LWW) are blocked
 here, and OpenAlex and Semantic Scholar ran out of quota part-way. 30 rows of this file were checked: 26 confirmed,
@@ -416,12 +417,12 @@ here, and OpenAlex and Semantic Scholar ran out of quota part-way. 30 rows of th
 | Mannarino2021 | CONFIRMED | ABSTRACT. 10 untrained men; +11.06% vs +5.16% (p = 0.009). |
 | Gentil2015 | CONFIRMED | FULL (PMC4592763). 29 untrained men; +6.10% vs +5.83%; wide overhand pulldown vs barbell curl. |
 | Heidel2022 | CONFIRMED | ABSTRACT. All five effect sizes match, including the two typos in the printed intervals. |
-| Haugen2023 | CORRECTED | FULL (PMC10426227). All SMDs match. The CSV said "6 studies trained, 7 untrained". The paper's text says an even 6/6 split and its own table says 8 of 13 trained, so the paper is inconsistent. CSV fixed in both files. The text also says six studies measured size (the abstract says five), and only two used ultrasound. |
+| Haugen2023b | CORRECTED | FULL (PMC10426227). All SMDs match. The CSV said "6 studies trained, 7 untrained". The paper's text says an even 6/6 split and its own table says 8 of 13 trained, so the paper is inconsistent. CSV fixed in both files. The text also says six studies measured size (the abstract says five), and only two used ultrasound. |
 | Saeterbakken2025 | CONFIRMED | FULL (PMC12296774). 0.98 vs 0.42 overall; 0.75 vs 0.29 in trained lifters. |
 | Lanza2024 | CONFIRMED | ABSTRACT. 13 trained vs 11 controls; the side delt grew less than every other muscle and is not listed among those that beat the controls. Light loads (50–55% 1RM). |
 | DiFonza2026 | CONFIRMED | **It exists** (J Funct Morphol Kinesiol 2026;11(3):315, PMID 42647355). FULL: "None of the studies reviewed here included a longitudinal training intervention." The pullover finding rests on one small study. |
 | Kikuchi2017 | CONFIRMED | FULL (PMC5812864). Every number is quoted as the paper states it. But the paper contradicts itself (see the caveat added in section 1). |
-| Barbalho2020 | CONFIRMED | **Retracted** (doi 10.1080/17461391.2019.1611932; notice 10.1080/17461391.2022.2116178, August 2022). Confirmed on PubMed, Crossref, Europe PMC and OpenAlex. |
+| Barbalho2020a | CONFIRMED | **Retracted** (doi 10.1080/17461391.2019.1611932; notice 10.1080/17461391.2022.2116178, August 2022). Confirmed on PubMed, Crossref, Europe PMC and OpenAlex. |
 | Barbalho2018a | CONFIRMED | **Expression of Concern** confirmed and read (Sports 2026;14(6):240, 10 June 2026): concerns "regarding the validity of the data"; investigation still open. |
 | Barbalho2021 | CONFIRMED | Abstract matches. No retraction or expression of concern anywhere. The erratum linked in PubMed could not be read. |
 | Barbalho2018b | CONFIRMED | Abstract matches. No notice of any kind. |
@@ -430,12 +431,12 @@ here, and OpenAlex and Semantic Scholar ran out of quota part-way. 30 rows of th
 | BazValle2019 | CORRECTED | FULL (PMC6934277). 21 started but **19 finished**. The note and CSV said 21; the lower-body file had it right. Effect sizes 1.68 and 0.84 confirmed. |
 | Schwanbeck2020, MarcosFrutos2025, Kassiano2022, Costa2021, Varovic2025 | CONFIRMED | Shared with the lower-body note. Each abstract matches, and both CSVs give the same n, design and numbers. |
 
-**Random sample** (seed 20261116; from this file: Halet2009, Nunes2020, Rabello2024, Trebs2010)
+**Random sample** (seed 20261116; from this file: Halet2009, Nunes2020a, Rabello2024, Trebs2010)
 
 | key | verdict | what was checked |
 |---|---|---|
 | Halet2009 | CONFIRMED | r = 0.34 (p = 0.08) in 28 women swimmers. The note now says who was tested and that this is not an EMG study. |
-| Nunes2020 | CONFIRMED | FULL (PMC7460162). 35 untrained adults, randomised; +7% vs +8% (p = 0.346); +30% vs +39% at long length. |
+| Nunes2020a | CONFIRMED | FULL (PMC7460162). 35 untrained adults, randomised; +7% vs +8% (p = 0.346); +30% vs +39% at long length. |
 | Rabello2024 | CONFIRMED | 33 EMG studies; pull-ups and inverted rows highest for the rear delt. |
 | Trebs2010 | CONFIRMED | 15 men; upper-pec activity higher at 44° than at 0° and 28°. |
 
@@ -448,10 +449,10 @@ here, and OpenAlex and Semantic Scholar ran out of quota part-way. 30 rows of th
 - Barbalho paragraph: "four trials … one retracted" → five trials, two retracted, one Expression of Concern, one
   with an unread erratum, one clean.
 - BazValle2019: n 21 → 19 finished of 21 (note and CSV).
-- Haugen2023: CSV population "6 trained, 7 untrained" → what the paper actually says (both CSVs).
+- Haugen2023b: CSV population "6 trained, 7 untrained" → what the paper actually says (both CSVs).
 - Verdict, chest line: dumbbells removed from the list of presses that "grow the pecs about equally". Nobody has
   tested them.
-- Clarified, not wrong: Kikuchi2017 caveat; Halet2009 sample; Nunes2020 design ("randomised"); the cable-only origin
+- Clarified, not wrong: Kikuchi2017 caveat; Halet2009 sample; Nunes2020a design ("randomised"); the cable-only origin
   of the overhead-extension recommendation.
 
 **Still unverified**
@@ -462,8 +463,9 @@ here, and OpenAlex and Semantic Scholar ran out of quota part-way. 30 rows of th
   HernandezBelmonte2023. These stay ABSTRACT.
 - The 27 CSV rows outside the audit list were not re-checked beyond matching every citation to its PubMed record.
 
-**Key clashes to fix before merging.** Barbalho2020 and Nunes2020 each name two different papers across the two
-files. Larsen2025 and Kassiano2025 here are also different papers from Larsen2025a/b and Kassiano2025a/b there.
+**Key clashes, fixed at merge.** The auditor found that "Barbalho2020" and "Nunes2020" each named two different papers
+across the two files. They are now Barbalho2020a and Nunes2020a here and Barbalho2020b and Nunes2020b in the lower-body
+file. Larsen2025 and Kassiano2025 here are also different papers from Larsen2025a/b and Kassiano2025a/b there.
 
 **Verdict stands.** No ranking or recommendation changed. Two Verdict sentences were made more careful: the chest
 line no longer implies dumbbells have been tested, and the triceps line now says the bench grows the long head

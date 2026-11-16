@@ -1,5 +1,12 @@
 # Creatine deep dive — progress (resume point)
 
+> **Paused 2026-11-16.** Kye asked for exercise-selection research first, and the stop file `knowledge-base/STOP` is in
+> place. Resume point: batches 021 and 022 (400 records) are **screened but not cross-verified and not merged** into
+> `records.csv`. Their decisions and verification samples are in `screening/batch-021-*` and `screening/batch-022-*`
+> (the verification agents hit the usage limit before writing any output). Next: verify and merge 021–022, screen batch
+> 023 (`screening/batch-023-input.csv`, the last 187 records), then the consistency pass.
+
+
 **Active topic:** creatine monohydrate (deep-dive queue #1). **Tier B** (full primary review), per `protocol.md`.
 **Current phase:** 2 in progress (title/abstract screening): 4,000 of 4,587 screened (batches 001–020). **Next: batches 021–023 (the last 587), then the consistency pass.**
 

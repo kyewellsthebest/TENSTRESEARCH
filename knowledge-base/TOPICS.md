@@ -13,11 +13,13 @@ any time; new requests go to the top.
 ## Queue
 
 ### Prioritised by Kye (2026-11-16)
-- [ ] in progress (2026-11-16) — Exercise selection by muscle: which exercise grows more muscle and strength? Chest (bench press variants, flyes), back (lat pulldown, pull-ups, rows), shoulders (3 heads), arms, quads, hamstrings, glutes, calves, abs — long-term growth and strength studies, not just EMG. *(Kye asked for this to come first; the creatine deep dive is paused at phase 2.)*
+- [x] done (2026-11-16) — Exercise selection by muscle: which exercise grows more muscle and strength? Chest, back, shoulders, arms, quads, hamstrings, glutes, calves, abs — long-term growth and strength studies, not just EMG. *(Kye asked for this to come first; the creatine deep dive is paused at phase 2.)*
+  - **Verdict, upper body (limited):** research can't rank most exercises. No growth study compares any two back exercises (pulldown vs pull-up vs rows is unanswered). Barbell, Smith and machine presses grow the pecs equally; incline may add upper pec. Overhead triceps extensions beat arm-at-side ones; pressing alone leaves the side delt and triceps long head behind; do direct curls and lateral raises. → [`library/exercises/upper-body-exercise-selection.md`](../library/exercises/upper-body-exercise-selection.md)
+  - **Verdict, lower body (moderate; limited for glutes):** no single best leg exercise. Squat-pattern lift plus leg extensions for quads; seated leg curl plus a hinge for hamstrings; standing straight-knee calf raises; hip thrust ≈ deep squat for glutes. Free weights and machines grow the same muscle. Strength is specific to the lift you train (strong). → [`library/exercises/lower-body-exercise-selection.md`](../library/exercises/lower-body-exercise-selection.md)
 
 ### Supplements
 - [x] done (2026-11-15) — Creatine monohydrate: muscle, strength, cognition, kidney safety, loading, timing, non-responders
-  - **Deep dive in progress** (started 2026-11-15; phase 2 of 6: 4,000 of 4,587 records screened) → [`deep/creatine/progress.md`](deep/creatine/progress.md)
+  - **Deep dive paused 2026-11-16** (started 2026-11-15; phase 2 of 6: 4,000 of 4,587 records screened) → [`deep/creatine/progress.md`](deep/creatine/progress.md)
   - **Verdict (strong):** the best legal supplement, though the gain is modest: about +1.4 kg fat-free mass (part of it water) and a few kg on your lifts. Take 5 g a day at any time; loading is optional. It doesn't harm healthy kidneys but makes creatinine/eGFR blood tests read worse. The hair-loss scare is unfounded. → [`library/supplements/creatine.md`](../library/supplements/creatine.md)
 - [x] done (2026-11-15) — Caffeine and pre-workouts: performance, dose by body weight, sleep cost, habituation
   - **Verdict (strong for the acute effect; limited for the long term):** about +1–2% on 1RM and about 1 extra rep per set; 2–3 mg/kg (175–260 mg) is enough. It costs sleep if taken within about 8–10 h of bed. It doesn't build extra muscle. Branded pre-workouts add little but risk. → [`library/supplements/caffeine-preworkout.md`](../library/supplements/caffeine-preworkout.md)
@@ -70,3 +72,11 @@ any time; new requests go to the top.
 - [ ] open — Protein powder vs whole-food protein at matched intake during a cut: body composition, appetite, adherence *(from protein powders)*
 - [ ] open — Beta-alanine or bicarbonate for short-rest hypertrophy programmes: more session volume, and more muscle over 8–12 weeks? *(from buffers)*
 
+### Discovered 2026-11-16
+- [ ] open — Back hypertrophy evidence gap: any preprints, theses or conference abstracts measuring lat, trap or rear-delt size after pulldown vs row, different grips or lengthened partials? Re-check every few months *(from exercise selection, upper body)*
+- [ ] open — Counting sets from compounds: how much do bench, overhead press, rows and pulldowns count toward triceps, delt and biceps volume ("fractional sets")? *(from exercise selection, upper body)*
+- [ ] open — Upper pec and triceps long head in trained lifters: has incline vs flat or overhead vs pushdown been repeated in trained people; do dips, skull-crushers or close-grip presses grow the long head? *(from exercise selection, upper body)*
+- [ ] open — Do exercise-selection effects hold in trained lifters (seated vs lying curl, standing vs seated calf raise, squat vs leg extension)? Any trials since 2024 or registered and under way? *(from exercise selection, lower body)*
+- [ ] open — Rectus femoris: what grows it best (lean-back leg extension vs sissy squat vs reverse Nordic vs hip-flexion work)? *(from exercise selection, lower body)*
+- [ ] open — Do direct ab exercises add rectus abdominis and oblique size beyond heavy compound lifting? Needs a wider search (older literature, theses) *(from exercise selection, lower body)*
+- [ ] open — Deadlift variants, lunges, split squats and step-ups for glute and adductor growth; hack squat vs barbell squat vs leg press for quad size *(from exercise selection, lower body)*

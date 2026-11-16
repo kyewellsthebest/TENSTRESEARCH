@@ -7,6 +7,15 @@ pages and the PDF digest.
 
 ---
 
+### 2026-11-16 — exercise selection: which exercise grows more muscle and strength? (audited)
+Kye asked for this to come first. The creatine deep dive is paused at screening.
+- **Upper body** — research can't rank most exercises. **No study compares any two back exercises for growth**, so lat pulldown vs pull-up vs rows is unanswered. Barbell, Smith and machine presses grow the pecs equally. Overhead triceps extensions beat arm-at-side ones (+19.9% vs +13.9%). Pressing alone leaves the side delt and triceps long head behind. *Limited.* → [page](library/exercises/upper-body-exercise-selection.md)
+- **Lower body** — no single best leg exercise. Squats grow the rectus femoris much less than leg extensions and don't grow hamstrings. Seated leg curls beat lying (+14.1% vs +9.3%). Standing calf raises beat seated (about +9–12% vs +1–2%). Hip thrust ≈ deep squat for glutes. Free weights and machines grow the same muscle. *Moderate.* → [page](library/exercises/lower-body-exercise-selection.md)
+- **Strength** — you get strongest at the lift you train; carry-over to other lifts is partial. *Strong.*
+
+84 studies added; the independent audit checked 58 rows: 49 confirmed, 9 corrected, none rejected (no verdict changed). Most trials are 6–12 weeks in beginners.
+Digest: [`knowledge-base/digests/2026-11-16-digest.pdf`](knowledge-base/digests/2026-11-16-digest.pdf)
+
 ### 2026-11-15 — creatine deep dive: screening under way (phase 2)
 4,000 of 4,587 records have been screened by title and abstract: 144 included, 41 maybe and 3,815 excluded. A second agent re-checks every batch. In batch 003 that check turned up one borderline record, so all 158 of that batch's other exclusions were re-screened; none changed. The verdict is unchanged until full-text appraisal. → [progress](knowledge-base/deep/creatine/progress.md)
 
