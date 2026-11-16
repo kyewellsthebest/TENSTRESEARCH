@@ -12,6 +12,9 @@ any time; new requests go to the top.
 
 ## Queue
 
+### Prioritised by Kye (2026-11-16)
+- [ ] in progress (2026-11-16) — Exercise selection by muscle: which exercise grows more muscle and strength? Chest (bench press variants, flyes), back (lat pulldown, pull-ups, rows), shoulders (3 heads), arms, quads, hamstrings, glutes, calves, abs — long-term growth and strength studies, not just EMG. *(Kye asked for this to come first; the creatine deep dive is paused at phase 2.)*
+
 ### Supplements
 - [x] done (2026-11-15) — Creatine monohydrate: muscle, strength, cognition, kidney safety, loading, timing, non-responders
   - **Deep dive in progress** (started 2026-11-15; phase 2 of 6: 4,000 of 4,587 records screened) → [`deep/creatine/progress.md`](deep/creatine/progress.md)
@@ -36,7 +39,6 @@ any time; new requests go to the top.
 - [ ] open — Micronutrients, fibre and gut health for lifters; ultra-processed food
 
 ### Training
-- [ ] open — Exercise selection by muscle: chest, back, shoulders (3 heads), arms, quads, hamstrings, glutes, calves, abs — EMG vs actual growth studies
 - [ ] open — Training frequency and split design (full-body vs upper/lower vs bro split) in trained lifters
 - [ ] open — Periodisation, deloads and autoregulation (RPE/RIR, velocity-based)
 - [ ] open — Strength vs hypertrophy: low-rep heavy work, specificity, 1RM transfer
