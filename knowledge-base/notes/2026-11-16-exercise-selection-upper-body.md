@@ -1,6 +1,6 @@
 # Exercise selection, upper body — which exercise grows more muscle and builds more strength?
 
-Run date: 2026-11-16 · Topic status: researched (needs audit) · Studies file:
+Run date: 2026-11-16 · Topic status: audited 2026-11-16 · Studies file:
 `2026-11-16-exercise-selection-upper-body-studies.csv` (57 rows)
 
 **Evidence tags:** strength of evidence is given as strong / moderate / limited / very limited, followed by the citation
@@ -21,11 +21,25 @@ I label it every time.
 - "No significant difference" in a 20-person study does not prove two exercises are equal. It usually means the study
   was too small to tell.
 
-**A word on the Barbalho papers.** One research group (first author Barbalho) published four trials on compound vs
-isolation exercises, mostly concluding that isolation work adds nothing. One is **retracted** (Barbalho2020), and one
-has a 2026 **Expression of Concern** (Barbalho2018a). The other two (Barbalho2018b, Barbalho2021) carry no notice, but
-I give all four no weight. They are in the CSV only so nobody cites them by mistake. Older reviews that lean on them
-(for example Gentil 2017, doi 10.1007/s40279-016-0627-5, not a CSV row; ABSTRACT) should be read with that in mind.
+**A word on the Barbalho papers.** One research group (first author Barbalho) published five trials on compound vs
+isolation exercises, mostly concluding that isolation work adds nothing (corrected at audit: the draft said four).
+
+- Two are **retracted**: Barbalho2020 (recreational bodybuilders, Eur J Sport Sci; retracted August 2022) and a
+  trial in untrained young women that is not a CSV row (J Strength Cond Res 2020;34(8):2214-2219, PMID 29781936;
+  retracted January 2022).
+- One has a 2026 **Expression of Concern** about the validity of its data (Barbalho2018a).
+- Barbalho2021 has no retraction or expression of concern. PubMed links it to an erratum whose record is mislabelled,
+  so I could not read what was corrected.
+- Barbalho2018b carries no notice.
+
+I give all of them no weight. The four that are CSV rows are there only so nobody cites them by mistake. Older reviews
+that lean on them (for example Gentil 2017, doi 10.1007/s40279-016-0627-5, not a CSV row; ABSTRACT) should be read
+with that in mind.
+
+**Key clash with the lower-body note.** "Barbalho2020" in this file is the retracted bodybuilder trial (doi
+10.1080/17461391.2019.1611932). "Barbalho2020" in the lower-body file is a different paper: the squat vs hip thrust
+trial (doi 10.1055/a-1082-1126), which has no notice. "Nunes2020" is also two different papers (preacher curls here,
+calf raises there). Give them separate keys before merging into `STUDIES.csv`.
 
 ---
 
@@ -65,6 +79,9 @@ I give all four no weight. They are in the CSV only so nobody cites them by mist
   - Kikuchi2017 (FULL): 18 men, 8 weeks, bench at 40% 1RM vs push-ups set to the same load, to failure. Pec thickness
     +19.4% (bench) vs +18.3% (push-up); triceps +10.3% vs +9.5%; 1RM 60.0 → 65.0 kg vs 61.1 → 64.2 kg.
     Nine per group, so it cannot show equivalence. Light loads only.
+  - Audit caveat: these percentages are the ones the paper states, but they do not follow from its own printed
+    means (bench triceps 26.3 → 27.8 mm is +5.7%, not +10.3%; bench pec 17.8 → 22.5 mm is +26%, not +19.4%). The
+    paper's abstract, text and table disagree with each other. Trust the direction (both grew), not the decimals.
   - Calatayud2015 (ABSTRACT): 30 trained students, 5 weeks, 6RM bench vs band-loaded 6RM push-ups. Similar 1RM gains.
     No size measure.
   - Kotarsky2018 (ABSTRACT): 23 men, 4 weeks. Both raised bench 1RM. Too short to see growth.
@@ -94,8 +111,9 @@ I give all four no weight. They are in the CSV only so nobody cites them by mist
   - Lusk2010 (ABSTRACT; n = 12): an overhand grip gave more lat activity than an underhand grip. Buonsenso2025, a
     larger study, did not confirm this.
 - **EMG only: pull-up/chin-up vs pulldown.** Doma2013 (ABSTRACT): chin-ups gave more biceps activity than pulldowns,
-  with no lat difference reported. Halet2009 (ABSTRACT): pull-up count and pulldown 1RM are only weakly related
-  (r = 0.34), because body weight decides pull-up performance.
+  with no lat difference reported. Halet2009 (ABSTRACT; not EMG, a correlation study in 28 women swimmers): pull-up
+  count and pulldown 1RM are only weakly related (r = 0.34, p = 0.08), because body weight decides pull-up
+  performance.
 - **EMG only: the pullover looks more like a chest exercise than a lat exercise.** DiFonza2026 (FULL).
 - **Mid-back and traps:** no training study, and I did not find a usable EMG synthesis. **None.**
 
@@ -178,7 +196,9 @@ I give all four no weight. They are in the CSV only so nobody cites them by mist
     - The overhead arm used 34–39% lighter loads and still grew more.
   - This is the largest between-exercise difference found anywhere in this note. It has not been repeated, and the
     abstract does not say whether the subjects were trained.
-- **The bench press alone does not grow the long head.** Strength: **limited**.
+- **The bench press alone grows the long head less than triceps extensions do.** Strength: **limited**.
+  (Corrected at audit: the draft said the bench "does not grow" the long head. The abstract only says it grew
+  *less* than in the extension groups, and that whole-triceps growth was not significant with bench alone.)
   - Brandao2020 (ABSTRACT): 43 young men in four groups, MRI of each head.
     - Bench only: the **lateral head** grew more than with triceps extensions only. The whole triceps did not grow
       significantly, and the **long head grew less** than in every group that did lying triceps extensions.
@@ -203,8 +223,11 @@ I give all four no weight. They are in the CSV only so nobody cites them by mist
   **limited**.
   - Rosa2023 (ABSTRACT; meta-analysis, 7 trials, 10 comparisons): "trivial" pooled difference. The abstract gives no
     numbers. The authors add that isolation work may grow specific parts of a muscle that compounds miss.
-  - I could not see the list of included trials. It was published before the Barbalho retraction, so it may contain
-    flagged data.
+  - Audit: the pooled estimate very likely does **not** include Barbalho data. I could not see the paper's table of
+    included trials, but its reference list (on Crossref) cites no Barbalho trial at all, and it does cite the 2020
+    critique "Improbable data patterns in the work of Barbalho et al". Exactly seven head-to-head trials appear in
+    the reference list, which matches the seven it pooled: Bezerra 2018, Brandao2020, deFranca2015, Gentil2013,
+    Gentil2015, Mannarino2021 and Paoli2017. That list is my inference, not the paper's own table.
 - **But the head-level studies show compounds leave gaps.** Strength: **limited**.
   - Bench press leaves the triceps long head behind (Brandao2020) and barely touches the side delt (Lanza2024).
   - Rows grew the biceps half as much as curls in one small study (Mannarino2021).
@@ -242,8 +265,9 @@ I give all four no weight. They are in the CSV only so nobody cites them by mist
 - **Some planned variety is fine. Random rotation is not better and may cost strength.** Strength: **limited**.
   - Kassiano2022 (ABSTRACT; review, 8 studies, 241 young men): planned variation may help regional growth. Frequent
     random changes may hurt gains.
-  - BazValle2019 (FULL): 21 trained men, 8 weeks, fixed exercises vs an app picking them at random. Size gains were
-    similar. Bench 1RM effect size was 1.68 (fixed) vs 0.84 (random), not significantly different.
+  - BazValle2019 (FULL): 19 trained men finished (21 started), 8 weeks, fixed exercises vs an app picking them at
+    random. Size gains were similar. Bench 1RM effect size was 1.68 (fixed) vs 0.84 (random), not significantly
+    different.
   - Costa2021 (ABSTRACT): 22 detrained men. The varied group grew at every arm site. The fixed group missed one.
     Within-group tests only.
 
@@ -253,9 +277,10 @@ I give all four no weight. They are in the CSV only so nobody cites them by mist
 
 For most of the upper body, science cannot tell you which exercise grows more muscle. The honest ranking is short.
 
-- **Chest:** barbell, dumbbell, Smith and machine presses grow the pecs about equally (moderate evidence for
-  barbell vs machine; nothing direct for dumbbells). An incline press may add upper-pec growth (limited; one beginner
-  study). Bench vs flyes has never been tested for growth. Push-ups match the bench when the load matches (limited).
+- **Chest:** barbell, Smith and machine presses grow the pecs about equally (moderate evidence). Dumbbell presses
+  have never been tested for growth against any of them. An incline press may add upper-pec growth (limited; one
+  beginner study). Bench vs flyes has never been tested for growth. Push-ups match the bench when the load matches
+  (limited).
 - **Back:** no growth study compares any two back exercises. Grip width and grip type make little difference to lat
   EMG. Choose by feel, loadability and joint comfort.
 - **Shoulders:** dumbbell and cable lateral raises are equal (limited, trained lifters). The bench press grows the
@@ -265,7 +290,8 @@ For most of the upper body, science cannot tell you which exercise grows more mu
   to the brachialis and brachioradialis. Curls grew the biceps about twice as much as rows in one small study, and the
   same as pulldowns in another.
 - **Triceps:** the clearest result in this note. Overhead extensions grew the triceps about 1.4–1.5 times as much as
-  arm-at-side extensions. The bench press alone does not grow the long head.
+  arm-at-side extensions (one study, cable machine, training status not stated). The bench press alone grows the
+  long head less than triceps extensions do.
 - **Compound vs isolation:** about equal for whole-muscle size on average, but compounds leave specific gaps (triceps
   long head, side delt, possibly biceps). Isolation work fills them.
 - **Strength:** highly specific. Train the lift you want to be strong in.
@@ -300,7 +326,7 @@ Ranked picks per muscle. Where I write "any", the evidence says they are equal o
      and one with the arm in front (preacher curl). Expect the difference to be small.
 5. **Triceps.**
    - First: an overhead cable or dumbbell extension. This is the best-supported single exercise choice in the upper
-     body.
+     body. (The study used a cable. The dumbbell version is a reasonable extension of it, not a tested result.)
    - Second: your pressing, which covers the lateral head.
    - Pushdowns are fine as a third option, but don't make them your only triceps exercise.
 6. **Forearms.** No evidence to rank anything. Preacher curls grew the brachioradialis a little more than incline
@@ -329,13 +355,18 @@ Ranked picks per muscle. Where I write "any", the evidence says they are equal o
   and not in Europe PMC. Load-bearing numbers taken from abstracts: HernandezBelmonte2023, Chaves2020, Brandao2020,
   Maeo2023, Kobayashi2026, Kassiano2025, Mannarino2021, Lanza2024, Heidel2022. The auditor should open full texts if
   possible. Europe PMC returned HTTP 500 for the Chaves2020 (PMC7449336) and Ogasawara2012 (PMC3831787) full text.
-- **Brandao2020:** the abstract gives no trial length, no training status and no effect sizes. The "bench alone does
-  not grow the long head" claim rests on its significance statements only.
-- **Rosa2023:** not in PubMed. Abstract seen via OpenAlex and Semantic Scholar only. No numbers. The included-trial
-  list was not seen, so I could not check whether retracted Barbalho data are in the pooled estimate.
+- **Brandao2020:** the abstract gives no trial length, no training status and no effect sizes. The "bench alone grows
+  the long head less" claim rests on its significance statements only. The abstract does not say whether the long
+  head grew at all with bench alone.
+- **Rosa2023:** not in PubMed. Abstract seen via OpenAlex and Semantic Scholar only (the auditor also saw it on
+  Crossref). No numbers. The table of included trials was not seen. The auditor read the Crossref reference list: no
+  Barbalho trial is cited (see section 7).
 - **Barbalho papers:** Barbalho2020 retraction confirmed on PubMed and Crossref. Barbalho2018a Expression of Concern
   confirmed (doi 10.3390/sports14060240). For Barbalho2021, PubMed lists an erratum with doi 10.1055/a-1400-4290, but
-  Crossref resolves that DOI to an unrelated 2016 correction. I could not verify what the erratum says.
+  Crossref resolves that DOI to an unrelated 2016 correction. I could not verify what the erratum says. (Auditor: the
+  erratum record, PMID 33733437, is tagged as a correction to both the 2016 paper and Barbalho2021, and its PMID
+  dates from 2021. So a real 2021 correction to Barbalho2021 probably exists under a wrong title. Its content is
+  still unread; the publisher's site is blocked.)
 - **Larsen2025:** the full text prints the credible intervals as "0.72 to 0.22" and "0.57–0.94", which look like
   dropped minus signs. I report the point estimates and Bayes factors only. Funding: Jaquish Biomedical.
 - **Kikuchi2017:** the abstract repeats the push-up group's pec values for the bench group. I used the full-text
@@ -361,3 +392,80 @@ Ranked picks per muscle. Where I write "any", the evidence says they are equal o
   searches returned HTTP 429 and gave nothing. Every DOI in the CSV was resolved on Crossref and checked for
   `update-to`/`updated-by`, except Solstad2020 and Franke2015, which have no DOI in PubMed. No retractions other than
   Barbalho2020.
+
+## Audit (2026-11-16)
+
+Independent audit. Every DOI checked was resolved on Crossref and matched to its PubMed record (title, authors, year,
+journal, volume, pages). Numbers were checked against PubMed abstracts and, where open, Europe PMC full text
+(Larsen2025, Gentil2015, Kikuchi2017, Haugen2023, Saeterbakken2025, DiFonza2026, BazValle2019, Nunes2020, Larsen2026).
+Retractions and corrections were checked through Crossref `updated-by` and the `updates:` filter, PubMed
+comment/correction links, Europe PMC and OpenAlex. Publisher sites (Thieme, Taylor & Francis, BMJ, LWW) are blocked
+here, and OpenAlex and Semantic Scholar ran out of quota part-way. 30 rows of this file were checked: 26 confirmed,
+4 corrected, none rejected. Full detail is in `2026-11-16-audit.csv`.
+
+**Load-bearing items**
+
+| key | verdict | what was checked |
+|---|---|---|
+| HernandezBelmonte2023 | CONFIRMED | ABSTRACT. 38 trained men, 19 per group, 8 weeks; size difference ≤ 2.0% (P ≥ 0.208); strength difference ≤ 1.8%. Same in both notes. |
+| Chaves2020 | CONFIRMED | ABSTRACT. 47 untrained men, once a week for 8 weeks; 0.62 cm (0.23 to 1.0) and 0.50 cm (0.14 to 0.86). Full text still not reachable, so the incline angle is unknown. |
+| Larsen2025 | CONFIRMED | FULL (PMC12277279). 24 analysed of 26; about 7 years of training; +3.3–4.6%; −0.25 mm and +0.20 mm; Bayes factors 0.27 and 0.22; the garbled intervals are printed exactly as the note says; funded by Jaquish Biomedical. |
+| Maeo2023 | CONFIRMED | ABSTRACT. +28.5% vs +19.6%, +14.6% vs +10.5%, +19.9% vs +13.9%; loads 34–39% lighter overhead. Cable machine only; training status not stated. |
+| Brandao2020 | CORRECTED | ABSTRACT. The numbers-free findings are quoted correctly, but "the bench press alone does **not** grow the long head" overstated it. The abstract says the long head grew **less** with bench only. Fixed in section 5, the Verdict and the Doubts list. |
+| Kobayashi2026 | CONFIRMED | **It exists** as a full journal article (J Sports Sci 2026;44(23):3288-3301, PMID 42829982). All six pairs of numbers match the abstract. |
+| Mannarino2021 | CONFIRMED | ABSTRACT. 10 untrained men; +11.06% vs +5.16% (p = 0.009). |
+| Gentil2015 | CONFIRMED | FULL (PMC4592763). 29 untrained men; +6.10% vs +5.83%; wide overhand pulldown vs barbell curl. |
+| Heidel2022 | CONFIRMED | ABSTRACT. All five effect sizes match, including the two typos in the printed intervals. |
+| Haugen2023 | CORRECTED | FULL (PMC10426227). All SMDs match. The CSV said "6 studies trained, 7 untrained". The paper's text says an even 6/6 split and its own table says 8 of 13 trained, so the paper is inconsistent. CSV fixed in both files. The text also says six studies measured size (the abstract says five), and only two used ultrasound. |
+| Saeterbakken2025 | CONFIRMED | FULL (PMC12296774). 0.98 vs 0.42 overall; 0.75 vs 0.29 in trained lifters. |
+| Lanza2024 | CONFIRMED | ABSTRACT. 13 trained vs 11 controls; the side delt grew less than every other muscle and is not listed among those that beat the controls. Light loads (50–55% 1RM). |
+| DiFonza2026 | CONFIRMED | **It exists** (J Funct Morphol Kinesiol 2026;11(3):315, PMID 42647355). FULL: "None of the studies reviewed here included a longitudinal training intervention." The pullover finding rests on one small study. |
+| Kikuchi2017 | CONFIRMED | FULL (PMC5812864). Every number is quoted as the paper states it. But the paper contradicts itself (see the caveat added in section 1). |
+| Barbalho2020 | CONFIRMED | **Retracted** (doi 10.1080/17461391.2019.1611932; notice 10.1080/17461391.2022.2116178, August 2022). Confirmed on PubMed, Crossref, Europe PMC and OpenAlex. |
+| Barbalho2018a | CONFIRMED | **Expression of Concern** confirmed and read (Sports 2026;14(6):240, 10 June 2026): concerns "regarding the validity of the data"; investigation still open. |
+| Barbalho2021 | CONFIRMED | Abstract matches. No retraction or expression of concern anywhere. The erratum linked in PubMed could not be read. |
+| Barbalho2018b | CONFIRMED | Abstract matches. No notice of any kind. |
+| Rosa2023 | CORRECTED | Citation and abstract confirmed on Crossref. The note's worry that it "may contain flagged data" is very likely wrong: its reference list cites no Barbalho trial and cites the critique of Barbalho's data. Fixed in section 7. The paper's own table of included trials was not seen. |
+| Larsen2026 | CONFIRMED | **It exists** (Front Physiol 2026;17:1750722). FULL: −0.40 mm (−1.06 to 0.26) and +0.21 mm (−0.25 to 0.65). |
+| BazValle2019 | CORRECTED | FULL (PMC6934277). 21 started but **19 finished**. The note and CSV said 21; the lower-body file had it right. Effect sizes 1.68 and 0.84 confirmed. |
+| Schwanbeck2020, MarcosFrutos2025, Kassiano2022, Costa2021, Varovic2025 | CONFIRMED | Shared with the lower-body note. Each abstract matches, and both CSVs give the same n, design and numbers. |
+
+**Random sample** (seed 20261116; from this file: Halet2009, Nunes2020, Rabello2024, Trebs2010)
+
+| key | verdict | what was checked |
+|---|---|---|
+| Halet2009 | CONFIRMED | r = 0.34 (p = 0.08) in 28 women swimmers. The note now says who was tested and that this is not an EMG study. |
+| Nunes2020 | CONFIRMED | FULL (PMC7460162). 35 untrained adults, randomised; +7% vs +8% (p = 0.346); +30% vs +39% at long length. |
+| Rabello2024 | CONFIRMED | 33 EMG studies; pull-ups and inverted rows highest for the rear delt. |
+| Trebs2010 | CONFIRMED | 15 men; upper-pec activity higher at 44° than at 0° and 28°. |
+
+**Corrections made**
+
+- Brandao2020: "does not grow the long head" → "grows the long head less than triceps extensions do" (section 5,
+  Verdict, Doubts).
+- Rosa2023: "may contain flagged data" → very likely excludes Barbalho data, with the evidence (section 7, Doubts,
+  CSV).
+- Barbalho paragraph: "four trials … one retracted" → five trials, two retracted, one Expression of Concern, one
+  with an unread erratum, one clean.
+- BazValle2019: n 21 → 19 finished of 21 (note and CSV).
+- Haugen2023: CSV population "6 trained, 7 untrained" → what the paper actually says (both CSVs).
+- Verdict, chest line: dumbbells removed from the list of presses that "grow the pecs about equally". Nobody has
+  tested them.
+- Clarified, not wrong: Kikuchi2017 caveat; Halet2009 sample; Nunes2020 design ("randomised"); the cable-only origin
+  of the overhead-extension recommendation.
+
+**Still unverified**
+
+- What the erratum to Barbalho2021 says (publisher blocked; the index record is mislabelled).
+- Rosa2023's own table of included trials and its pooled numbers (journal not in PubMed, full text blocked).
+- Full texts of Chaves2020, Brandao2020, Maeo2023, Kobayashi2026, Mannarino2021, Lanza2024, Heidel2022 and
+  HernandezBelmonte2023. These stay ABSTRACT.
+- The 27 CSV rows outside the audit list were not re-checked beyond matching every citation to its PubMed record.
+
+**Key clashes to fix before merging.** Barbalho2020 and Nunes2020 each name two different papers across the two
+files. Larsen2025 and Kassiano2025 here are also different papers from Larsen2025a/b and Kassiano2025a/b there.
+
+**Verdict stands.** No ranking or recommendation changed. Two Verdict sentences were made more careful: the chest
+line no longer implies dumbbells have been tested, and the triceps line now says the bench grows the long head
+*less*, not that it fails to grow it. The practical advice (overhead extensions first; do not rely on pressing
+alone for triceps) is the same.

@@ -1,6 +1,6 @@
 # Exercise selection, lower body and trunk — which exercise grows more muscle and strength?
 
-Run date: 2026-11-16 · Topic status: researched (needs audit) · Studies file:
+Run date: 2026-11-16 · Topic status: audited 2026-11-16 · Studies file:
 `2026-11-16-exercise-selection-lower-body-studies.csv` (38 rows)
 
 Covers quads, hamstrings, glutes, adductors, calves and abs/trunk, plus two cross-cutting questions: free weights vs
@@ -14,7 +14,8 @@ key from the CSV. Access is marked FULL (full text read), ABSTRACT or SECONDARY.
 - **Almost every head-to-head trial used untrained people for 6–12 weeks.** Only five training studies here used
   trained lifters (HernandezBelmonte2023, BazValle2019, Rauch2020, Bartolomei2025, Larsen2025b), plus one in academy
   rugby players (Speirs2016) and two in trained women that I do not trust (Barbalho2020, Barbalho2021; see section 3).
-  Beginners grow from nearly anything, which can hide or exaggerate exercise differences.
+  A sixth, Rossi2018, is listed as "trained" in the Haugen2023 review (SECONDARY; added at audit), but it measured no
+  muscle size. Beginners grow from nearly anything, which can hide or exaggerate exercise differences.
 - **Most trials have 8–20 people per group.** "No significant difference" in these studies usually means "too small to
   tell", not "proven equal". I say so where it matters.
 - **A lot of this literature comes from two labs:** Cyrino/Kassiano (Londrina, Brazil; ultrasound thickness in young
@@ -28,19 +29,27 @@ and `top5/`. They are only repeated here where muscle length explains why one ex
 
 ## 1. Quadriceps
 
-- **Squats grow the three vasti well but barely grow the rectus femoris. Leg extensions grow the rectus femoris.**
-  Strength: **moderate** (three trials agree, all in untrained people).
+- **Squats grow the vasti but grow the rectus femoris much less, or not at all. Leg extensions grow the rectus
+  femoris.** Strength: **moderate** (three trials agree; two used untrained people and the third does not state its
+  sample in the abstract).
+  - Corrected at audit: the draft said squats grow "the three vasti well" and "barely" grow the rectus femoris. The
+    trials measured the vastus lateralis or the knee extensors as a group, not each vastus. In Kassiano2026 the
+    rectus femoris still grew 2–8% with squats.
   - Kassiano2026 (RCT; 63 untrained young women; 8 weeks; 3 sets of 8–12RM, 2 days a week; sets equated; ABSTRACT):
     Smith machine squat vs leg extension.
     - Rectus femoris thickness, leg extension vs squat: proximal +11.4% vs +2.0%; middle +12.3% vs +5.7%; distal +17.5%
       vs +7.9% (all p < 0.001).
-    - Vastus lateralis, distal site: squat +18.2% vs leg extension +11.2% (p < 0.001).
+    - Vastus lateralis, distal site: squat +18.2% vs leg extension +11.2% (p < 0.001). The abstract reports a squat
+      advantage at this site only, so leg extensions grew the vastus lateralis too.
     - No confidence intervals in the abstract.
-  - Kubo2019 (randomised; 17 men, 8 and 9 per group; 10 weeks; MRI volume; ABSTRACT): full or half squats grew the knee
+  - Kubo2019 (randomised; 17 men, 8 and 9 per group; untrained per KrauseNeto2025's table, SECONDARY; 10 weeks; MRI
+    volume; ABSTRACT): full or half squats grew the knee
     extensors as a group by +4.9 ± 2.6% and +4.6 ± 3.1%, but **rectus femoris volume did not change in either group**.
   - ZabaletaKorta2021 (RCT; Smith squat vs leg extension, volume equated; ABSTRACT): all three rectus femoris regions
     grew with leg extensions; only the central vastus lateralis grew significantly with squats. The abstract gives no
     sample size and only within-group p-values, and a published letter criticised the paper. Treat it as weak support.
+    (Audit: the letter and the authors' reply both exist, PMIDs 34930094 and 35291926, but neither has an abstract
+    and the publisher's site is blocked, so what the criticism says is unverified.)
   - Why: the rectus femoris crosses the hip. In a squat it shortens at the hip while it lengthens at the knee, so it
     does little work. This is mechanism, not something these trials tested.
 - **Leaning back on the leg extension grows the rectus femoris more than sitting upright.** Strength: **limited** (one
@@ -52,7 +61,9 @@ and `top5/`. They are only repeated here where muscle length explains why one ex
     - The abstract does not give the size of the difference in millimetres.
 - **Back squat vs leg press vs hack squat for quad size: no usable head-to-head study.** Strength: **very limited**.
   - Rossi2018 (squat vs leg press vs both; 10 weeks; ABSTRACT) reports strength, body composition and jump outcomes
-    only. The abstract gives no sample size and no quad-size numbers. I could not reach the full text.
+    only. The abstract gives no sample size and no quad-size numbers. I could not reach the full text. The Haugen2023
+    review lists it as 17 trained men (8 squat, 9 leg press) with body composition by Bod Pod, which is not a measure
+    of quad size (SECONDARY; corrected at audit, the CSV had said "untrained" and "ultrasound").
   - Amanuma2025 (8 untrained women; 9 weeks; lunge on one leg, incline leg press on the other; ABSTRACT): similar growth
     of vastus lateralis and rectus femoris at two sites each (no interaction, p = 0.59–0.82). With 8 people this cannot
     show the two are equal.
@@ -105,7 +116,10 @@ and `top5/`. They are only repeated here where muscle length explains why one ex
       (+11.2 ± 12.7%).
   - Bourne2017 (RCT; 30 recreationally active men, 10 per group; 10 weeks; MRI; ABSTRACT): a hip-extension exercise
     grew the biceps femoris long head more than Nordics (d = 1.03, p = 0.037). Semitendinosus growth was not
-    significantly different (d = 0.69, p = 0.239). The paper has a published correction that I did not read.
+    significantly different (d = 0.69, p = 0.239). The paper has a published correction (Br J Sports Med
+    2019;53(6):e2). Audit: the notice itself was not reachable. A search-engine snippet of the journal page says it
+    rewrites the competing-interests statement (two authors hold a patent and shares in a company selling a
+    hamstring-strength testing device). Treat that as SECONDARY. The snippet mentions no change to the data.
   - Crawford2025 (RCT; 32 young adults; only 6 weeks; ultrasound; ABSTRACT): Romanian deadlift vs Nordic, no difference
     in hamstring cross-sectional area (P = 0.60). Overall growth was 0.78 cm² (95% CI 0.45 to 1.11).
 - **Leg curl vs stiff-leg/Romanian deadlift, head-to-head for hamstring size: no training study found.** They only
@@ -139,13 +153,27 @@ and `top5/`. They are only repeated here where muscle length explains why one ex
     well-trained women doing about 6 sets a week.
   - Barbalho2021 (30 trained women; 6 months; multi-joint vs single-joint vs both; ABSTRACT) has the same trust
     problem, and volume was not equated.
+  - **Audit (2026-11-16).** The auditor re-checked both papers and found the same: no retraction and no expression
+    of concern for either on PubMed, Europe PMC, Crossref (including a search for notices that update these DOIs) or
+    OpenAlex. The publisher's own pages are blocked, so that last check is still open.
+    - The four retracted papers are PMIDs 31188644, 31072272, 30779716 and 29781936. A fifth paper from the group
+      (Sports 2018;6(4):160) received an Expression of Concern on 10 June 2026 over the validity of its data.
+    - Barbalho2021 is linked in PubMed to an erratum (PMID 33733437) whose record carries the title of an unrelated
+      2016 correction. A real 2021 correction to Barbalho2021 probably exists; its content is unread.
+    - **Key clash:** the upper-body note also has a "Barbalho2020", and says it is retracted. That is a different
+      paper (Eur J Sport Sci, doi 10.1080/17461391.2019.1611932). The two notes do not contradict each other. Give
+      the two papers separate keys before merging into `STUDIES.csv`. "Nunes2020" has the same problem (calf raises
+      here, preacher curls in the upper-body file).
 - **Deeper squats grow more glute than half squats.** Strength: **limited** (one small trial).
   - Kubo2019: gluteus maximus volume +6.7 ± 3.5% (full squat, about 140° of knee bend) vs +2.2 ± 2.6% (half squat,
     90°), p = 0.008. Only 8 and 9 men per group.
 - **Adding hip thrusts on top of leg press and stiff-leg deadlift gave more glute growth, but the hip thrust group also
   did more sets.** Strength: **very limited**.
-  - Kassiano2023a (33 untrained young women; 10 weeks; ABSTRACT; **preprint only**): glute thickness +9.3% vs +6.0%
-    (P = 0.016). It cannot separate "hip thrust" from "more glute volume".
+  - Kassiano2023a (33 untrained young women; 10 weeks; ABSTRACT): glute thickness +9.3% vs +6.0% (P = 0.016). It
+    cannot separate "hip thrust" from "more glute volume".
+  - Corrected at audit: the draft called this "preprint only". It was published in a peer-reviewed journal in
+    September 2024 (Int J Strength Cond 4(1), doi 10.47206/ijsc.v4i1.284). The sample and the numbers in the
+    journal abstract are the same as in the preprint.
 - **In trained lifters, a squat-and-step-up programme and a hip-thrust-and-reverse-hyper programme grew the glutes
   similarly.** Strength: **very limited**.
   - Bartolomei2025 (RCT; 19 resistance-trained adults; 6 weeks; repetitions equated; ABSTRACT): similar increases in
@@ -255,9 +283,9 @@ and `top5/`. They are only repeated here where muscle length explains why one ex
     - This is the largest trial on variety, and it found nothing. Rotating between three squat-type lifts is redundant.
   - Fonseca2014 (RCT; 49 physically active people in 5 groups; 12 weeks; MRI; ABSTRACT): whole-quad growth was the
     same with constant or varied exercises (9.3–12.2%). Only the varied groups significantly grew every quad head; the
-    constant groups missed the rectus femoris and/or vastus medialis. The varied-exercise group also gained the most
-    squat strength. A reported secondary detail (via BazValle2019) is that the constant groups did squats only, which
-    fits section 1.
+    constant groups missed the rectus femoris and/or vastus medialis. One of the two varied-exercise groups (the one
+    with constant intensity) gained the most squat strength; the other varied group did not (corrected at audit). A
+    reported secondary detail (via BazValle2019) is that the constant groups did squats only, which fits section 1.
   - Costa2021 (22 detrained men; 9 weeks; ABSTRACT): varied exercises grew all measured sites; fixed exercises missed
     two. Within-group p-values only, 11 per group.
 - **Random rotation is not better and may be slightly worse.** Strength: **limited** (one small trial in trained
@@ -306,9 +334,10 @@ and `top5/`. They are only repeated here where muscle length explains why one ex
 There is no single best leg exercise. Each compound lift grows some muscles and leaves others nearly untouched, and for
 most direct "A vs B" questions lifters ask, no training study exists.
 
-- **Quads (moderate):** squat-type lifts grow the vasti; they barely grow the rectus femoris. Leg extensions grow the
-  rectus femoris, and more so when you lean back. Nothing ranks back squat, front squat, hack squat, leg press and split
-  squat against each other for quad size.
+- **Quads (moderate):** squat-type lifts grow the vasti; they grow the rectus femoris much less (2–8% vs 11–18% with
+  leg extensions in one trial, no change in another). Leg extensions grow the rectus femoris, and more so when you
+  lean back. Nothing ranks back squat, front squat, hack squat, leg press and split squat against each other for quad
+  size.
 - **Hamstrings (moderate):** seated leg curl beats lying leg curl by about half again (+14% vs +9% in 12 weeks). Hinges
   and curls grow different hamstrings, so do both. Squats do not grow hamstrings.
 - **Glutes (limited):** hip thrust and deep squat grew the glutes about equally in the one good trial, which was in
@@ -367,8 +396,8 @@ guess.
 8. **Variety.** Keep the same exercises for a whole block so you can add load and reps. Choose them to cover different
    heads (squat + leg extension; seated curl + hinge; hip extension + abduction). Do not rotate between near-identical
    lifts hoping for "confusion". Change an exercise when it hurts, stalls for weeks, or bores you.
-9. **Strength.** Train the exact lift you want to be strong at. Leg press strength will not give you most of your
-   squat strength.
+9. **Strength.** Train the exact lift you want to be strong at. Leg press training carries over to the squat less
+   than squatting does (Rossi2018; the abstract gives no numbers, so the size of the gap is unknown).
 
 ## New avenues
 
@@ -389,7 +418,7 @@ guess.
   not find a retraction or expression of concern for it in PubMed, Europe PMC, Crossref or OpenAlex. That recollection
   is UNVERIFIED. The auditor should check the publisher's page for both papers. PubMed also links Barbalho2021 to an
   erratum whose DOI resolves to an unrelated 2016 correction; the record looks mis-linked. Neither paper carries any
-  weight in the verdict.
+  weight in the verdict. (Auditor: same result; the publisher's site is blocked from here too. See section 3.)
 - **31 of the 38 rows are ABSTRACT only.** Publisher sites were blocked and most papers have no Europe PMC full text.
   Only Plotkin2023, Maeo2021, Maeo2024, Kinoshita2023, Haugen2023, BazValle2019 and KrauseNeto2025 were read in full,
   and for those I read the methods, results, limitations and funding sections rather than every page. The abstract-only
@@ -400,9 +429,11 @@ guess.
   Attarieh2026, Kassiano2023b, Kassiano2025b and Crawford2025 do not state training status in the abstract.
 - **Heidel2022 hypertrophy interval** is printed as −0.01 (−0.525 to 0.545), which is not centred. Probably a typo in
   the abstract.
-- **Kassiano2023a is a preprint.** No journal version was found today, although KrauseNeto2025 cites it as 2024. The
-  auditor should check whether it was published and whether the numbers changed.
-- **Bourne2017 has a correction** (doi 10.1136/bjsports-2016-096130corr1) that I did not read.
+- **Kassiano2023a was cited from its preprint.** Resolved at audit: the journal version is Int J Strength Cond
+  2024;4(1), doi 10.47206/ijsc.v4i1.284 (found on Crossref; the journal is not indexed in PubMed). The abstract
+  numbers are unchanged.
+- **Bourne2017 has a correction** (doi 10.1136/bjsports-2016-096130corr1) that I did not read. (Auditor: not
+  reachable in full either; see section 2 for what a search snippet says.)
 - **Plotkin2023 correction.** I read it in full. It changes the funding, conflict-of-interest and registration
   statements only. The retrospective registration and the equipment donation are worth keeping in mind.
 - **"No study found" claims** (front vs back squat; hack squat; deadlift, lunge and step-up for glutes; leg curl vs
@@ -418,3 +449,78 @@ guess.
   trials.
 - All 38 DOIs resolved on Crossref today. Corrections were found for Plotkin2023 and Bourne2017 only. No retractions
   were found among the cited papers.
+
+## Audit (2026-11-16)
+
+Independent audit. Every DOI checked was resolved on Crossref and matched to its PubMed record (title, authors, year,
+journal, volume, pages). Numbers were checked against PubMed abstracts and, where open, Europe PMC full text
+(Plotkin2023 and its correction, Maeo2021, Maeo2024, Kinoshita2023, Haugen2023, Saeterbakken2025, BazValle2019,
+KrauseNeto2025). Retractions and corrections were checked through Crossref `updated-by` and the `updates:` filter,
+PubMed comment/correction links, Europe PMC and OpenAlex. Publisher sites (Thieme, Taylor & Francis, BMJ, LWW) are
+blocked here. 28 rows of this file were checked: 23 confirmed, 5 corrected, none rejected. Full detail is in
+`2026-11-16-audit.csv`.
+
+**Load-bearing items**
+
+| key | verdict | what was checked |
+|---|---|---|
+| Plotkin2023 | CONFIRMED | FULL (PMC10593473). Every interval matches. **The 2026 correction exists** (Front Physiol 17:1987823, 28 October 2026) and was read in full: equipment donation, rewritten conflict statement, registration after the fact, no data changed. As the note says. |
+| Maeo2021 | CONFIRMED | FULL (PMC7969179). +14.1% vs +9.3% and all four per-muscle pairs; P = 0.190; P = 0.663; no resistance training in the past 12 months; Mizuno grant. |
+| Kinoshita2023 | CONFIRMED | FULL (PMC10753835). 14 untrained adults; 12.4% vs 1.7%; 9.2% vs 0.6%; soleus 2.1% vs 2.9% (p = 0.410); CV 9.8%. |
+| Kassiano2026 | CORRECTED | **It exists** as a full journal article (J Strength Cond Res 2026;40(4):367-376, PMID 41379528). Every number matches the abstract. But "squats grow the three vasti well and barely grow the rectus femoris" overstated it. Fixed in section 1 and the Verdict. |
+| Kubo2019 | CONFIRMED | ABSTRACT. All volumes and p-values match. Squat depths and "untrained" come from KrauseNeto2025's tables (SECONDARY). |
+| Kassiano2025b | CONFIRMED | ABSTRACT (Res Q Exerc Sport 2025;96(2):371-381). 70 women; +7.8–17.7% vs +7.5–19.3%; +24.4–32.1% vs +29.0–30.1%. |
+| Maeo2024 | CONFIRMED | FULL (PMC11419281). +18% vs +11%; +19% vs +5%; 1.9-fold; +17/+11/+4%. MRI data cover 11 of the 14 controls. |
+| Attarieh2026 | CONFIRMED | **It exists, ahead of print** (J Strength Cond Res, PMID 42842490, online 7 October 2026). All percentages match the abstract. |
+| Barbalho2020 | CONFIRMED | This is the squat vs hip thrust paper (doi 10.1055/a-1082-1126). Abstract matches. **No retraction, expression of concern or erratum found** on PubMed, Europe PMC, Crossref, OpenAlex or by web search. Publisher page blocked. |
+| Barbalho2021 | CONFIRMED | Abstract matches. No retraction or expression of concern. Linked erratum unread. |
+| Kassiano2023a | CORRECTED | **Not "preprint only".** Published as Int J Strength Cond 2024;4(1), doi 10.47206/ijsc.v4i1.284. Same sample and same numbers. |
+| Fonseca2014 | CORRECTED | ABSTRACT. Numbers match. Only one of the two varied-exercise groups gained the most strength; the note implied both. Fixed in section 8. |
+| ZabaletaKorta2021 | CONFIRMED | ABSTRACT, quoted correctly. The letter and the reply exist but could not be read. |
+| Bourne2017 | CONFIRMED | ABSTRACT. d = 1.03 (p = 0.037); d = 0.69 (p = 0.239). The correction could not be read in full. |
+| HernandezBelmonte2023, Heidel2022, MarcosFrutos2025, Kassiano2022, BazValle2019, Costa2021, Varovic2025, Saeterbakken2025 | CONFIRMED | Shared with the upper-body note. Each matches its source, and both CSVs give the same n, design and numbers (after the upper-body BazValle2019 row was fixed). |
+| Haugen2023 | CORRECTED | FULL. All SMDs match. CSV said "6 studies trained, 7 untrained"; the paper's text says 6/6 and its table says 8 of 13. CSV fixed in both files. |
+| Nunes2020 | CONFIRMED | ABSTRACT. 8.4% vs 3.8% and 9.1% vs 5.5%. Different paper from the upper-body file's Nunes2020. |
+
+**Random sample** (seed 20261116; from this file: Amanuma2025, Kassiano2025a, Rossi2018, Schwanbeck2020)
+
+| key | verdict | what was checked |
+|---|---|---|
+| Amanuma2025 | CONFIRMED | 8 untrained women; all four pairs of percentages; p = 0.59–0.82. |
+| Kassiano2025a | CONFIRMED | −0.21 (−3.56 to 3.13); 0.56 (0.16 to 0.96); −0.65 (−0.93 to −0.37). |
+| Rossi2018 | CORRECTED | Abstract quoted correctly. The CSV's secondary details were wrong: Haugen2023 lists it as **trained** (not untrained), 17 men, body composition by Bod Pod (not ultrasound). |
+| Schwanbeck2020 | CONFIRMED | 46 adults; 13.9% vs 8.6% (p = 0.05). Same in both notes. |
+
+**Corrections made**
+
+- Kassiano2026 / quads: "grow the three vasti well but barely grow the rectus femoris" → "grow the vasti but grow
+  the rectus femoris much less, or not at all" (section 1 heading, Verdict). "All in untrained people" → two of the
+  three trials.
+- Kassiano2023a: "preprint only" → peer-reviewed version cited, DOI and citation updated in the CSV.
+- Fonseca2014: which group gained the most squat strength.
+- Rossi2018: CSV population, n and outcome; added to the list of trained-lifter studies (SECONDARY).
+- Haugen2023: CSV population (both files).
+- Recommendation 9: "Leg press strength will not give you most of your squat strength" → carries over less; size of
+  the gap unknown.
+- Added, not wrong: Barbalho audit paragraph and key-clash warning (section 3); Kubo2019 training status; Bourne2017
+  correction content (SECONDARY); Maeo2024 control numbers.
+
+**Still unverified**
+
+- The publisher's own pages for Barbalho2020 and Barbalho2021, and what the erratum to Barbalho2021 says.
+- The content of the letter criticising ZabaletaKorta2021 and of the authors' reply. Its sample size, training
+  status and duration are also still unknown.
+- The full text of the Bourne2017 correction (only a search snippet was seen).
+- Full texts of Kassiano2026, Kubo2019, Kassiano2025b, Attarieh2026 and Fonseca2014. These stay ABSTRACT, and the
+  quad verdict rests on the first two.
+- The 10 CSV rows outside the audit list were not re-checked beyond matching every citation to its PubMed record.
+
+**The two notes do not disagree about Barbalho.** They use the key "Barbalho2020" for two different papers. The
+upper-body one is retracted. The lower-body one (squat vs hip thrust) has no notice. Neither note gives any Barbalho
+paper weight in a verdict. The KrauseNeto2025 pooled glute figure does include both lower-body Barbalho papers, as
+the note already says.
+
+**Verdict stands.** No ranking or recommendation changed. The quad sentence was made more careful: squats grow the
+rectus femoris much less than leg extensions do, not "barely". The advice is the same (squat-pattern lift plus leg
+extension). Recommendation 9 now says leg press carries over to the squat less than squatting does, without
+claiming how much less.
