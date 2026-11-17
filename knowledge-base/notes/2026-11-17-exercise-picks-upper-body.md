@@ -28,8 +28,9 @@ stable it is, joint comfort and time. Where two exercises cannot be separated I 
    Most of those trials used beginners for 8–12 weeks.
 2. For lats, mid-back, traps, rear delts and forearms there is **still no head-to-head growth study**. Those lists are
    mostly grade C. The order inside grade C is my judgment from EMG and practicality.
-3. EMG reads lower when a muscle is stretched, whatever the effort. So EMG is biased against stretched-position
-   exercises (overhead extensions, incline curls, flyes). I do not use EMG to rank those against other exercises.
+3. EMG amplitude changes with muscle length whatever the effort (see `top5/F3-findings.md`). So EMG cannot fairly
+   compare a stretched-position exercise (overhead extension, incline curl, fly) with a shortened-position one. I do
+   not use EMG to rank those against each other.
 
 Access is marked FULL (full text read), ABSTRACT or SECONDARY. Unless I say otherwise, every study below was read as
 an abstract.
@@ -82,7 +83,7 @@ an abstract.
 | 3 | **Pec deck (machine fly)**, full stretch | Sternal head +21% in 12 weeks in beginners. No comparison exercise | B | Pinto2025 |
 | 4 | **Flat dumbbell bench press** | Never tested for growth. Pec EMG equal to barbell and Smith in one study and higher than barbell in another. Loads are about 17% lighter and the triceps do less | C | Saeterbakken2011, Farias2017, Welsch2005 |
 | 5 | **Weighted dip on parallel bars**, slight forward lean | No growth data for the chest. The only study I found describes joint angles and triceps EMG | C | McKenzie2022 |
-| 6 | **High-to-low cable crossover** or **flat dumbbell fly** | No growth data. One EMG study found 8–81% lower pec, delt and triceps activity in the fly than the bench at a 6RM load; another found equal pec amplitude but less time under activation | C | Solstad2020, Welsch2005 |
+| 6 | **High-to-low cable crossover** or **flat dumbbell fly** | No growth data. In one EMG study the bench gave 8–81% higher pec, front-delt and triceps activity than the fly at a 6RM load; another found equal pec amplitude but less time under activation in the fly | C | Solstad2020, Welsch2005 |
 
 **Also fine**
 
@@ -109,8 +110,8 @@ an abstract.
   press. Pec cross-sectional area grew in both; difference ≤2.0%.
 - MarcosFrutos2025: 37 students, 8 weeks, free-weight vs Smith bench. Pec area improved "comparably"; no numbers in
   the abstract.
-- Lanza2024: bench press only, 13 trainees vs 11 controls, 10 weeks, MRI. Pecs grew more than every other muscle
-  measured.
+- Lanza2024: bench press only, 13 trainees vs 11 controls, 10 weeks, MRI. The pecs grew more than the pec minor and
+  the triceps.
 - Pinto2025: sternocostal head +21% with either 1 or 3 sets of pec deck.
 - Dumbbell press EMG: equal pec activity to barbell and Smith, 17% lighter load, less triceps (Saeterbakken2011,
   n = 12). More total reps (31.2 vs 27.8) and more pec EMG than barbell (Farias2017, n = 19).
@@ -123,7 +124,7 @@ an abstract.
 
 | Rank | Exercise (exact name and setup) | Why it ranks here | Grade | Key study (key, access) |
 |---|---|---|---|---|
-| 1 | **Lat pulldown to the front** — overhand or neutral grip, hands about shoulder-width to 1.5× shoulder-width, bar to the upper chest | A programme built on pulldowns and seated rows grew lat muscle fibres in 18 beginners in 8 weeks. Front beats behind-the-neck for lat EMG while pulling. Grip width makes no difference to lat EMG | B | Paoli2016 (FULL, part read); Padovan2024, Andersen2014, Buonsenso2025 (EMG) |
+| 1 | **Lat pulldown to the front** — overhand or neutral grip, hands about shoulder-width to 1.5× shoulder-width, bar to the upper chest | A programme whose only lat exercises were pulldowns and seated rows grew lat muscle fibres in 18 beginners in 8 weeks. Front beats behind-the-neck for lat EMG while pulling. Grip width makes no difference to lat EMG | B | Paoli2016 (FULL, part read); Padovan2024, Andersen2014, Buonsenso2025 (EMG) |
 | 2 | **Seated cable row, narrow neutral handle, elbows tight to the ribs** | The other half of the Paoli2016 programme. A narrow grip gave more lat EMG than a wide grip (ES 1.08, n = 14) | B | Paoli2016; Padovan2025b (EMG, ABSTRACT) |
 | 3 | **Pull-up (overhand) or chin-up (underhand)**, add weight once you pass about 10 reps | Lat EMG is very high and the same across grips. No lat difference from the pulldown was reported. **No data separates this from rank 1**; it sits third only because nobody has measured lat growth from it | C | Youdas2010, Dickie2017, Doma2013, DiFonza2026 (FULL) |
 | 4 | **Straight-arm cable pulldown** — bar or rope, arms nearly straight, pull from eye level to the thighs | Lat EMG higher than in the barbell pullover at a light load (n = 20). Trains the lats without the biceps limiting you | C | Muyor2022 (ABSTRACT) |
@@ -156,6 +157,8 @@ an abstract.
 - Pull-up EMG: lats 117–130% of the reference contraction in pull-up, chin-up and rotating-handle versions (Youdas2010,
   n = 25). Values over 100% mean the reference contraction was not truly maximal. Similar activity across four grips
   (Dickie2017, n = 19).
+- Pull-up handle: a straight bar gave more lat and lower-trap EMG than angled handles, and the widest grip raised
+  the modelled shoulder load by 7% (Pouly2026, n = 21).
 - Seated-row grip: narrow favours the lats, wide favours the traps (Padovan2025b). DiFonza2026 warns this is specific
   to the seated row. In the bent-over row a wider grip gave more lat EMG (one small study, SECONDARY via DiFonza2026).
 
@@ -167,7 +170,7 @@ an abstract.
 | 2 | **Chest-supported row, full range** — prone barbell row on a bench, T-bar with chest pad, or machine | Trunk is supported, so the back muscles, not the lower back, set the limit. Cutting the range to the top half lowered peak mid-trap EMG (d = 0.42–0.54) | C | Fischer2025 |
 | 3 | **Pull-up, overhand grip** | Mid-trap EMG higher than with a neutral grip (60 vs 37% of maximum). More lower-trap EMG than the chin-up | C | Dickie2017, Youdas2010 |
 | 4 | **Barbell bent-over row** | "Large, symmetrical" back muscle activity, but the highest spine load of three rows (n = 7) | C | Fenwick2009 |
-| 5 | **Prone Y-raise** (face down on an incline bench, arms raised overhead in a Y) and **reverse fly** | Highest lower-trap and mid-trap EMG among 10 rehab-style exercises (n = 30). Light loads only | C | Ekstrom2003 |
+| 5 | **Prone Y-raise** (face down on an incline bench, arms raised overhead in a Y) and **reverse fly** | Highest lower-trap and mid-trap EMG among 10 physiotherapy-style exercises (n = 30). Loads not given in the abstract | C | Ekstrom2003 |
 
 No data separates ranks 1–4. Pick the row you can load hard without your lower back giving out first.
 
@@ -197,9 +200,9 @@ No data separates ranks 1–4. Pick the row you can load hard without your lower
 | Rank | Exercise (exact name and setup) | Why it ranks here | Grade | Key study (key, access) |
 |---|---|---|---|---|
 | 1 | **Dumbbell shrug**, heavy, arms at the sides, one arm at a time or both | Highest upper-trap EMG of 10 exercises (n = 30), and 102% of maximum in a second study. Easy to load | C | Ekstrom2003, Andersen2008 |
-| 2 | **Shrug with the arms about 30° out to the sides** — wide-grip barbell, trap bar, or cables set wide | More upper-trap and lower-trap EMG than the arms-at-sides shrug (n = 37). Rehab loads | C | Pizzari2014 |
-| 3 | **Lateral raise** (already in your side-delt work) | Upper-trap EMG 97% of maximum with 3–10 kg, close to the shrug's 102% with 20–30 kg | C | Andersen2008 |
-| 4 | **Wide-grip upright row** | Upper-trap EMG 85% of maximum; a wider grip raised trap activity | C | Andersen2008, McAllister2013 |
+| 2 | **Shrug with the arms about 30° out to the sides** — wide-grip barbell, trap bar, or cables set wide | More upper-trap and lower-trap EMG than the arms-at-sides shrug (n = 37). Load not given in the abstract | C | Pizzari2014 |
+| 3 | **Lateral raise** (already in your side-delt work) | Trapezius EMG 97% of maximum with 3–10 kg, close to the shrug's 102% with 20–30 kg | C | Andersen2008 |
+| 4 | **Wide-grip upright row** | Trapezius EMG 85% of maximum; a wider grip raised trap activity | C | Andersen2008, McAllister2013 |
 
 **Also fine**
 
@@ -216,7 +219,8 @@ No data separates ranks 1–4. Pick the row you can load hard without your lower
 - No study has measured upper-trap growth from shrugs, or from any named exercise.
 - Strength training does grow the upper trap: fibre area rose 36% in 9 women after 10 weeks (Kadi2000). The abstract
   does not name the exercises, so no exercise gets the credit.
-- Andersen2008 tested 12 women with chronic neck pain. Treat the percentages as rough.
+- Andersen2008 tested 12 women with chronic neck pain, and its abstract says "trapezius" without naming the part.
+  Treat the percentages as rough.
 
 ## 6. Shoulders — front delt
 
@@ -270,8 +274,8 @@ No data separates ranks 1–4. Pick the row you can load hard without your lower
 - **Thumbs-down "pouring" raises.** Raised rear-delt and upper-trap EMG, not shown to raise side-delt EMG
   (Coratella2020). One review ranks this version top for the side delt (Rabello2024). The two disagree. No growth data.
 - **Front raise for side delts.** Far lower side-delt EMG (ES 10.28; Coratella2020).
-- **Machine shoulder press for side delts.** Lower side-delt EMG than barbell pressing (Coratella2020b for chest
-  press machine vs bench; Coratella2022 for shoulder press). C evidence.
+- **Machine shoulder press for side delts.** Lower side-delt EMG than the barbell in one comparison (behind-the-head
+  barbell vs behind-the-head machine, ES 7.51; Coratella2022, n = 8). C evidence.
 
 **Evidence notes**
 
@@ -340,13 +344,14 @@ peak" or "hits the short head" is untested.
 **Skip or demote**
 
 - **Top-half-only curls** (stopping well short of straight). D. Grew 3.4% against 8.9% for bottom-half reps
-  (Sato2021, n = 24), and less at the lower biceps (Pedrosa2023, n = 19).
+  (Sato2021, 12 per group), and less at the lower biceps (Pedrosa2023, n = 19).
 - **Rows as your biceps work.** D. Half the growth of curls (Mannarino2021), and less biceps swelling straight after
   training (Leitao2024, acute only).
-- **Hammer curls and reverse curls as biceps exercises.** Biceps EMG was 12% and 19% lower than with palms up
-  (Coratella2023a), and the hammer curl ranked last of four (Croskery2026). C evidence. No growth data either way.
+- **Hammer curls and reverse curls as biceps exercises.** A palms-up grip gave 12% more biceps EMG than the hammer
+  grip and 19% more than the reverse grip (Coratella2023a), and the hammer curl ranked last of four (Croskery2026).
+  C evidence. No growth data either way.
 - **The Bayesian curl as an upgrade.** It tied, twice. It also showed lower biceps EMG than a dumbbell curl (Parpa2025,
-  n = 11), though EMG is biased against stretched positions. Use it if you like it.
+  n = 11), though EMG amplitude shifts with muscle length, so that proves little. Use it if you like it.
 - **Swapping bars to chase EMG.** Straight vs EZ vs dumbbell differences are small and inconsistent (Marcolin2018,
   Coratella2023b). Choose by wrist comfort.
 
@@ -361,6 +366,8 @@ peak" or "hits the short head" is untested.
   small. Pedrosa2023: 19 untrained women, 8 weeks, same exercise, 0–68° vs 68–135°; only the lower site differed
   (p = 0.001).
 - Havers2025: 13 trained lifters (about 6 years), 8 weeks, one arm per condition. Trivial differences.
+- Pinto2012: 40 young men, 10 weeks, full-range vs partial-range elbow flexion (the partial range is not described in
+  the abstract). Thickness +9.65% vs +7.83%; 1RM +25.7% vs +16.0%. Full range is the safe default.
 - Mannarino2021: 10 untrained men, one arm rows, one arm curls, 8 weeks.
 - Kassiano2026b: 54 untrained women, 8 weeks, 2 sets three times a week. A correction to this paper exists that I
   could not read.
@@ -379,7 +386,7 @@ peak" or "hits the short head" is untested.
 | 2 | **Incline dumbbell curl** | Lost by 4 points but still grew the brachialis 17.1% | B | Kobayashi2026 |
 | 3 | **Cable curl**, any arm position | Brachialis thickness +10% (preacher-style) and +8% (Bayesian), no difference | B | Attarieh2025 (FULL) |
 | 4 | **Hammer curl** (palms facing each other) | Mechanics only: turning the hand takes work off the biceps, so the brachialis should do more. Surface EMG cannot measure the brachialis, and no growth study exists | C | Coratella2023a (biceps EMG only) |
-| 5 | **Reverse curl** (palms down, EZ-bar) | Same reasoning; biceps EMG fell 19% | C | Coratella2023a |
+| 5 | **Reverse curl** (palms down, EZ-bar) | Same reasoning; palms-up biceps EMG was 19% higher than reverse-grip | C | Coratella2023a |
 
 **Also fine**
 
@@ -501,10 +508,11 @@ No study has compared rank 1 with rank 2.
 | 1 | **Heavy finger-flexor (grip) training** — the study's exercise is not named in its abstract; the closest gym versions are heavy dumbbell or bar holds, dead hangs and thick-handle holds | Forearm circumference +0.6 to +0.8 cm in 5 weeks in 22 climbers. No control group, tape measure only | B (weak) | Andersen2026 |
 | 2 | **Wrist curl** — forearm flat on a bench or your thigh, palm up, barbell or dumbbell, let the bar roll toward the fingertips and curl it back | The wrist and finger flexors are most of the forearm's bulk, and this loads them directly. No study found | C | none found |
 | 3 | **Reverse wrist curl** — same position, palm down | The only direct loading for the wrist extensors on the top of the forearm. No study found | C | none found |
-| 4 | **Preacher or EZ-bar curls** (already in your arm work) | Grow the brachioradialis, the largest muscle on the thumb side (section 11) | A for that muscle only | Kobayashi2026 |
 
 **Also fine**
 
+- **Preacher or EZ-bar curls** (already in your arm work). They grow the brachioradialis, the big muscle on the thumb
+  side of the forearm (grade A for that muscle; section 11). They do nothing proven for the wrist flexors or extensors.
 - Wrist roller, cable wrist curls, behind-the-back barbell wrist curls. No study on any of them.
 - Not using straps on some pulling sets. No study; it simply adds grip work.
 
@@ -603,9 +611,10 @@ picks the exercises.
 
 ## Doubts / audit flags
 
-- **Grade counts.** 68 ranked rows: 20 grade A (counting ties and "A for one purpose"), 14 grade B, 33 grade C,
-  1 grade D. Most "Skip or demote" items are outside the ranked tables. The auditor should recount.
-- **46 of the 48 new CSV rows are ABSTRACT only** (publisher sites blocked). FULL: Paoli2016 (two paragraphs only).
+- **Grade counts.** 67 ranked rows: 17 grade A (counting ties and the two split grades in sections 9 and 12),
+  14 grade B, 35 grade C, 1 grade D. Most "Skip or demote" items are outside the ranked tables. The auditor should
+  recount.
+- **47 of the 48 new CSV rows are ABSTRACT only** (publisher sites blocked). FULL: Paoli2016 (two paragraphs only).
   Exercise details for Sato2021, Havers2025 and Augustin2025 were read in Europe PMC full text; their numbers come
   from abstracts. Stasinaki2018, Muyor2022 and Padovan2025b are not in PubMed; their abstracts were read on Crossref.
 - **Rank order inside grade C is my judgment**, not data. This applies to all of sections 3 (ranks 3–5), 4, 5, 8 and
@@ -647,6 +656,8 @@ picks the exercises.
   yesterday's studies. Nippard (commercial fitness content) is a co-author on Augustin2025 and Wolf2025.
 - **Barbalho-group trials:** none used. Steele and Fisher, co-authors on some of those papers, are authors of
   Gschneidner2025, which is a separate pre-registered multi-site trial.
+- **Shared key for the merge.** Gschneidner2025 is also a row in `2026-11-17-exercise-picks-lower-body-studies.csv`
+  (same paper, same DOI). Keep one row at merge.
 - **Retraction check.** All 47 new DOIs were resolved on Crossref and checked for `update-to` / `updated-by`. Only the
   Kassiano2026b correction appeared. Oliveira2009 has no DOI and was checked on PubMed only.
 - **Searches run:** about 70. PubMed E-utilities 44, Europe PMC 15, Crossref bibliographic 9 (5 of them restricted
